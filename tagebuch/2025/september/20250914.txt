@@ -1,0 +1,17 @@
+07:37:
+heute nacht grad wieder super mühsam gewesen, die herren neuro"wissenschaftler" haben scheinbar ihre neurowaffen updated udn dann irgendwelchen offizierstrotteln gegeben welche sich dann damit an mir abreagieren durften ...
+
+mehr details auf den Voice Aufzeichnugnen:
+~/hacker-notes-s25m09/voice/202509/*
+
+
+
+08:18:
+POSITIVES: Audio Server noch verbessert, kommt jetzt ohne qJack-ctl aus
+
+
+10:39:
+scans: 
+~/hacker-notes-s25m09/scans/42/BRN3C2AF421298E_068062--4201-4229.pdf
+
+
