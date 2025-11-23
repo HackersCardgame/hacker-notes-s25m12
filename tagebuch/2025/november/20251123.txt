@@ -10,4 +10,10 @@ scans/44/BRN3C2AF421298E_069848--4451-4500.pdf
 scans/45/BRN3C2AF421298E_069950--4501-4505.pdf (nummerierung falsch, bereits korrigiert)
 
 
+04:24:
+
+urs blum und die Züricvh Versichrunbg hat einen Trojaner [1] welcher zeugen mit keyfiles sprengt
+
+[1] unbekannt: der CIA Adler welcher einen Schlüssel in den krallen hält, das wäre eher eine handgranate, windows liest keyfiles nicht welche unter linux gehen (sowohl USB stick als auch CDROM), also dann wird induzierte epilepsie und amoklauf oder suizid aktiviert
+
 
