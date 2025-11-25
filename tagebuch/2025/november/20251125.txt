@@ -13,8 +13,17 @@ scans:
 
 
 voice:
-
+voice/202511/R2025112*
 
 Da wurde gester wieder ziemlich auf mich dreingeschlagen mit dem induzierte-epilepsie-remote-baseball-Schläger, ich vermute man will mich jetzt jeweils schon viel vor dem Psychiatrie-Kontroll-Termin psychotisch machen dass die mich dann grad internieren könnten und mich mit intelligenzmindernder Psychopharmaka wieder köpfen könnte
+
+also insbesondere die Tasks ...
+
+* Backup machen
+* tagebuch sichern
+* sprachaufzeichungenen auf github backuppen
+
+... werden systematsich vermient mit cyber-sprengfallen. Somit ist das sowieso keine Ermittlungsbehörde oder eine Ermittlungsbehrde welche weiss, dass sie selber der Terrorist ist
+
 
 
