@@ -13,7 +13,7 @@ scans:
 
 
 voice:
-voice/202511/R2025112*
+voice/202511/R2025112*k
 
 Da wurde gester wieder ziemlich auf mich dreingeschlagen mit dem induzierte-epilepsie-remote-baseball-Schläger, ich vermute man will mich jetzt jeweils schon viel vor dem Psychiatrie-Kontroll-Termin psychotisch machen dass die mich dann grad internieren könnten und mich mit intelligenzmindernder Psychopharmaka wieder köpfen könnte
 

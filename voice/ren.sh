@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ffmpeg -i $1 ${1}.mp3
+ffmpeg -n -i $1 ${1}.mp3
 rm $1
 
 
