@@ -14,3 +14,16 @@ der rest in den Voice Aufzeichnungen:
 voice:
 
 voice/202511/R2025112*
+
+
+ca 19:00:
+da war wieder einer der Offiziere aus der Nachbarschaft mit dem Bohrhammer am Terror machen
+
+1. es hat auch ganz kleine Kinder in dieser Liegenschaft, welche dann oft schon schlafen
+2. der hat immer so 1-sekunden-weise gebohrt oder gepresslufft-hämmert, und ich kenne keinen use case wo das überhaupt irgendwie sinn machen würde, also da gings vermutlich vorsätzlich drum lärm zu machen und die mieter gegeneinander auszuspielen ...
+
+und ich VERMUTE das sollte auch das in der Zeile 10 in diesem TXT file spammen, und ausserdem wurden scheinbar paralell dazu irgendwelche neurowaffen aufgestellt und aktiviert, so dass man nur auf den Herrn offizier-bohrhammer-trottel fokussieren würde und die sendeinfrastruktur versiffen würde.
+
+details in den sprachaufzeichungen, diese backuppe ich dann aber später auf github
+
+
