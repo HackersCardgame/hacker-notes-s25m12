@@ -1,5 +1,11 @@
 #!/bin/bash
 
+
+if [ "$1" = "" ]
+then
+	exit 1
+fi
+
 t=$(cat $1|tr '\n' ' ')
 
 #echo $t
