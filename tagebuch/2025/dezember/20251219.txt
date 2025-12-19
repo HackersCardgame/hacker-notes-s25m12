@@ -1,0 +1,54 @@
+11:53:
+
+scheinbar hat nach meinem gestrigen post jemand auf praktisch jeden use case in meiner wohnung cyber-sprengfallen gerendert welche aktivieren sobald deren action recognition erkennt dass ich jetzt diesen Use-Case erledigen möchte, auch wenn es nur der Use-Case "Küche aufräumen" ist
+
+
+für die Kleineren:
+
+Use Case bedeutet so etwas wie ein Task oder ein Arbeitsvorgang, und diese sind dann nochmals in kleiere tasks unterteilt
+
+und da ist es vermutlich für die Offiziere mit zugriff auf dieses Waffensystem welches illegal gegen Zeuge, Vergewaltigungsopfer, Zivilisten oder Autisten missbraucht wird nur das Drücken eines Knopfs, oder das abfeuern einer schusswaffe auf eine Zielscheibe mit einem Foto von mir drauf, und 1x schiessen bedeutet dann 1x cyber-Sprengfalle installieren, und 100x schiessen weäre 100 Cyber-Sprengfallen installeiren
+
+
+und da munition geld kostet, wird vermutlich der betrieb diesre Serverinfrastruktur vom waffenhersteller betreiben und gewartet
+
+
+marc@debian:~/hacker-notes-s25m12/tagebuch$ figlet INTERPOL
+ ___ _   _ _____ _____ ____  ____   ___  _     
+|_ _| \ | |_   _| ____|  _ \|  _ \ / _ \| |    
+ | ||  \| | | | |  _| | |_) | |_) | | | | |    
+ | || |\  | | | | |___|  _ <|  __/| |_| | |___ 
+|___|_| \_| |_| |_____|_| \_\_|    \___/|_____|
+                                               
+
+@ FEDPOL da wäre es auch spannend wer das im spezifischen ist, ein Waffensystem ist allenfalls schon legitim, ABER wenn die Herren Offiziere das nur dazu brauchen Zivilisten, Zeugen und Opfer zu ermorden, dann ist es das vermutlich auch nicht so ganz
+
+marc@debian:~/hacker-notes-s25m12/tagebuch$ figlet FEDPOL
+ _____ _____ ____  ____   ___  _     
+|  ___| ____|  _ \|  _ \ / _ \| |    
+| |_  |  _| | | | | |_) | | | | |    
+|  _| | |___| |_| |  __/| |_| | |___ 
+|_|   |_____|____/|_|    \___/|_____|
+                                     
+
+
+dann aber trotzdem noch die scans:
+
+ich vermute der Vorgesetzte von urs blum hat jetzt die Strafakte "Urs Blum hat es s**uell spass gemacht seine minderjährige jüngere Tochter körperlich zu misshandeln", und das Waffensystem (bzw in deren Weltbild "redet ja das Universum mit denen") hat/habe urs blum eingeredet dass sie das wolle
+
+
+M O T I V
+
+RECHTLICH: Hören sagen, bzw. Übermittlung durch unbekannt über für mich nicht nachvollziehbare kommunikations-Kanäle, ABER das MUTMASSLICHE motiv urs blum jetzt ans messer zu liefern wäre dass die Armee ihre Neurowaffen geheim halten möchten.
+
+Scans:
+scans/46/BRN3C2AF421298E_071158--4601-4628.pdf
+
+
+ausserdem will mein interner Router mir keine IP mehr geben um den Upload der Scans zu verhindern. Also der Vorgesetzte von urs blum spielt mit urs blum das Spiel "hol das stöckchen urs blum, sonst wenn du diese übermittlung nicht zensierst waderst du in den kanst"
+
+bzw. korrektur, er nimmt sonst immer die selbe ip aber hat disee jetzt gewechselt ...
+
+
+
+
