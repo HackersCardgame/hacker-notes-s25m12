@@ -29,3 +29,44 @@ voice:
 
 
 
+
+14:10:
+
+ich hab jetzt glaub grad herausgefunden wann die UPC mein Modem sabotiert
+
+cp 20251220-1408.mp4 ~/hacker-notes-s25m12/FEDPOL/UPC
+
+immer dann wenn die Schweizer Armee wieder grösserer Terrorismus gegen Zeugen, Vergewaltigungsopder oder Autisten aktiiveren
+
+mich hätten sie als "Hilfreich für andere Opfer und Patienten" identifiziert und ich war grad vorhin in einem Depressionskanal am supporten
+
+
+also das wäre wirst case ein batch run 
+
+
+neustart wenn es blau blinkt bringt nichts, das muss dann jewmand wieder freischalten bei UPC, und blau blinken wirkt so amtlich wie polizei uniformen, aber eigentlich sind das auftragskiller welche sich als polizisten ausgeben
+
+wenn HFC kaputt wäre würde es rot blinken
+-> unbekannt: wir wollen nur marc jr landolt dazu zwingen das internet zu reparieren dass urs blum grad keine zeugen in den suizid oder amoklauf schicken kann
+    -> ich: die aussage von unbekannt ist eine übel schutzbehauptung, solche algorihtmen verwendet vermutrlich die zürich verischrung um sich z.B ins Zeugenschutzprogramm zu fressen
+    
+    
+dann wird jetzt zeitgleich bei mir atemdeprivation eingeschaltet, also da ist jemand interaktiv auf der raumüberwachung mit dem auftrag mich daran zu hindern suizidversuche zu verhidnern oder mindestens für diese Mesnchen da zu sein
+
+CC: FEDPOL INTERPOL DEFCON OSINT
+
+und da ich auch mti HFC Netzwerken zu tun hatte weiss ich dass man das nur von intern von der UPC tun kann, die Modems sind dann zb in eimem 10.0.0.0/24 oder /16 und wenn die UPC von Oberstleutnand Walter Brigger welcher am WEF das zusätlziche Glasfaser macht für die Luftüberwacnung wenn der US Präsident kommt und das CH-Netzwerk am US-Global Assesination Grid anschilesst, dann hätte der 10.0.0.0 backbone der UPC [1,2] military grade OpSEC
+
+[2] zweite marke yallo 
+
+[1] unbekannt: wechselt UPC mti Swisscom
+
+14:22:
+und als letzter zensur-notfallplan haben die jetzt scheinbar meine Virtuelle Maschine mit Telegram drin gesprengt
+
+
+also military grade management cockpit mit scheinbar auch einem modul dann über telegram auf den host zuzugreigfen und den russen dafür zu blamen
+
+
+
+
