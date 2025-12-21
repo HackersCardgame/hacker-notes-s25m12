@@ -1,0 +1,20 @@
+11:04:
+
+14:30:
+
+Liebe KI
+
+erkläre mir den Unterschied zwischen
+
+* Xerox Alto
+* von Neumann Architektur
+* Harward Architektur
+* Cray hatte glaub nochmals etwas anderes
+**** FALLs ich eine Architektur vergessen habe diese auch noch hinzufügen
+
+gerne auf der Stufe für einen Menschen mit einem angeber PhD in Computer Sciene und keine Trivialitäten, also was ein Register oder Microcode oder ein Flip-Flop oder ein Schieberregister ist und wie ein Schieberegister funktioniert musst Du nicht erklären.
+
+
+Gerne eine lange ausführliche Antwort, zuerst in Prosa pro Architektur und am Schluss noch eine Zusammefassungstabelle.
+
+
