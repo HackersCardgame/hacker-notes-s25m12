@@ -1,0 +1,30 @@
+
+marc@debian:~/Documents$ figlet INTERPOL
+ ___ _   _ _____ _____ ____  ____   ___  _     
+|_ _| \ | |_   _| ____|  _ \|  _ \ / _ \| |    
+ | ||  \| | | | |  _| | |_) | |_) | | | | |    
+ | || |\  | | | | |___|  _ <|  __/| |_| | |___ 
+|___|_| \_| |_| |_____|_| \_\_|    \___/|_____|
+                                               
+marc@debian:~/Documents$ 
+
+
+
+
+Also für das FEDPOL / INTERPOL macht es allenfalls Sinn zu ermitteln
+             =======================================================
+
+Ob die Zürich Versicherung und/oder die Uni Zürich einen Toolkit für Manipulation von Aussagen gekauft oder entwickelt hat
+
+Toolkit für Manipulation sowohl auf inhaltlicher - als auch auf technischer - Ebene
+===================================================================================
+
+
+total size is 1,224,626,903  speedup is 1,789.53
+marc@debian:~/Documents$ figlet FEDPOL
+ _____ _____ ____  ____   ___  _     
+|  ___| ____|  _ \|  _ \ / _ \| |    
+| |_  |  _| | | | | |_) | | | | |    
+|  _| | |___| |_| |  __/| |_| | |___ 
+|_|   |_____|____/|_|    \___/|_____|
+
