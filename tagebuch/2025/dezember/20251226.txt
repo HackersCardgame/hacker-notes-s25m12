@@ -220,4 +220,11 @@ also der Daniele Ganser wäre ein militärsicher PsyOP mit dem Ziel alle kriegsp
 +++ WICHTIGER +++ WICHTIGER +++ WICHTIGER +++ WICHTIGER +++
 +++ WICHTIGER +++ WICHTIGER +++ WICHTIGER +++ WICHTIGER +++
 
+15:56:
+ich vermute ich hab jetzt den technischen fehler gefunden
+
+die können mit TR048 oder wie auch immer shcweizweit einfach netzwerkkarten sperren, und das tunnelt über 3 NAT's
+
+
+
 
