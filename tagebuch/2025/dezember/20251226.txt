@@ -1,0 +1,7 @@
+13:46:
+
+blau blinken scheint nur die erste Zensurfunktion zu sein. scheinbar gibt es eine weitere Zensurfunktion welche neue tcp-ip connections von meinem modem her nicht zulässt
+
+aber noch nix 100% sicher
+
+
