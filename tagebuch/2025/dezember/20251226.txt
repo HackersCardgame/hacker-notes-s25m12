@@ -225,6 +225,8 @@ ich vermute ich hab jetzt den technischen fehler gefunden
 
 die können mit TR048 oder wie auch immer shcweizweit einfach netzwerkkarten sperren, und das tunnelt über 3 NAT's
 
+und das ist jetzt mitigated, und das wurde jetzt grad deaktiviert dass ich die mitigation nciht auch bei den anderen geräten einbaue
+
 
 
 
