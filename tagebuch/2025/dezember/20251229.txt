@@ -1,0 +1,33 @@
+04:07
+
+vorerst nur spekulation, aber damals als die polizei mir über die coop video-überwachungs-infrastrukutr mir eine schädelverletzung welche genäht und ein CT gemacht werden musste verpasst hat und "die polizei meinen rucksack auf diebesgut aus dem Coop untersuchen mussten (eine ganze stunde und ich durfte nciht zuschauen und wurde an einen tisch gefesselt mit handschellen) hat die polizei am bahnhof nicht 
+
+IRATEMONK auf dem Datenträger 
+
+installiert
+
+sondern als eines der reichsten länder der welt hätte die schweiz auch zugriff gehabt intel Hardware Backdoors und IRATEMONK wurde direkt auf der north und southbridge installiert um sowohl boot am festplatte als auch boot ab usb stick zu infizieren
+
+und wenn ich glück habe hätten die damals boot am USB-C verkackt oder versifft
+
+bzw. konnte ich nohc nciht alle möglichen parameter zu 100% festnageln, allenfalls wäre es auch die SD-Karte welche irgendwie IRATEMONK abbekommen hat --- grub dummy lässt sich nicht installieren
+
+SD oder µSD Karten mit iratemonk zu infizieren wäre fast die einzige möglichkeit auch offline geräte wie raspberry oder zB handies zu infizieren oder zu zensieren
+
+
+04:31:
+ziel scheint es zu sein möglichst viele andere annomalien zu installieren, so dass im hintergrundrauschen der vielen annomalien die eigentliche malware getarnt bleibt
+
+versuche reproducable das mit der spezifischen hama µSD Karte
+
+dann beim versuchg das zu reproduzieren kann das jetzt keine efi partition mehr erstellen
+-> neue arbeitshypothese: späterer schreibschutz oder arraylist von verschiedenen fehlerarten von etwas wie IRATEMONK welche bei jedem Durchgang ein anderes fehlerbild zeigt um reproducabilty zu verhindern
+
+dann scheint die µSD karte massiv langsamer zu sein als so eine no-name-billig-µSD-Karte aus aliexpress
+
+04:44:
+dann hat sich jetzt innerhalb weniger minuten mein rechtes nasenloch komplett verkrustet, da vermute ich dass das ein elektroresponsive polymer ist und eher mit viel sendeleistung auf mich eingewirkt wird
+
+-> dann bin ich wieder mit wundversorgunb beschäftigt (da hilft im normalfall zB bepanthen salbe oder wenn kein bepanthen mehr auch bodylotion)
+
+
