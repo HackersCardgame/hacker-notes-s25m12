@@ -117,3 +117,38 @@ marc@trix:~/hacker-notes-s25m12/voice$ figlet FEDPOL
 |_|   |_____|____/|_|    \___/|_____|
                                      
 
+==============================================
+
+haben die 3 ABB Mitarbeiter welche in der Lawine umkamen
+wo nur philipp lüscher die lawine überlebt haben
+ allenfalls recherchen betrieben um zB Todesfälle
+im Kontext von ABB Robotern oder SCADA Systemen aufzuklären?
+
+Files:
+~/hacker-notes-s25m12/FEDPOL/3ABB/g.3ABB-Administratoren--0.1.0.txt
+
+
+==============================================
+
+marc@trix:~/hacker-notes-s25m12/voice$ figlet FEDPOL
+ _____ _____ ____  ____   ___  _     
+|  ___| ____|  _ \|  _ \ / _ \| |    
+| |_  |  _| | | | | |_) | | | | |    
+|  _| | |___| |_| |  __/| |_| | |___ 
+|_|   |_____|____/|_|    \___/|_____|
+                                     
+Da war ich noch nicht bei ABB, und Carmen Leibold hätte das allenfalls auch wissen können, aber Carmen ist gemäss Facebook auch verstorben
+
+ich vermute dieser Frage hätte man schon bei der STUXNET Diskussion nachgehen sollen
+ich vermute dieser Frage hätte man schon bei der STUXNET Diskussion nachgehen sollen
+ich vermute dieser Frage hätte man schon bei der STUXNET Diskussion nachgehen sollen
+ich vermute dieser Frage hätte man schon bei der STUXNET Diskussion nachgehen sollen
+ich vermute dieser Frage hätte man schon bei der STUXNET Diskussion nachgehen sollen
+
+
+
+
+
+
+
+
