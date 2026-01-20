@@ -1,0 +1,23 @@
+00:07:
+
+scheinbar sind die Interims-ÜBERbeissenden immer noch wach und am nerven
+
+
+in diesem Fall nur bisschen einfache Büro-Arbiet, dass ich mir nicht "zufällig" bei Hausarbeiten weil "zufällig" abgelenkt noch das Genick breche
+
+scans:
+~/hacker-notes-s25m12/scans/47/BRN3C2AF421298E_072328--4751-4763.pdf
+
+
+voice:
+
+~/hacker-notes-s25m12/voice/202601/R202601{1,2}*
+
+
+
+
+ausserdem da ist bei UBS schon irgend etwas nicht kosher:
+
+~/hacker-notes-s25m12/FEDPOL/ubs/*
+
+
