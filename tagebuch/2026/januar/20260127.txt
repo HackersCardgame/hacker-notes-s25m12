@@ -1,0 +1,7 @@
+12:37:
+
+scans:
+~/hacker-notes-s25m12/scans/47/BRN3C2AF421298E_072398--4761-4800.pdf
+
+voice:
+~/hacker-notes-s25m12/voice/202601/R2026012
