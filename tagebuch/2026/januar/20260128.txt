@@ -21,4 +21,15 @@ voice:
 
 @ Kleinere: meine severity: Annoyed, und noch sehr müdelig ...
 
+22:13:
+
+scans:
+~/hacker-notes-s25m12/scans/48/BRN3C2AF421298E_072498--4801-4815.pdf
+
+voice:
+~/hacker-notes-s25m12/voice/202601/R2026012*
+
+
+und immer noch bzw schon wieder annoyed...
+
 
