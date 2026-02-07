@@ -40,5 +40,10 @@ marc@trix:~/hacker-notes-s25m12/voice$ figlet INTERPOL
  | || |\  | | | | |___|  _ <|  __/| |_| | |___ 
 |___|_| \_| |_| |_____|_| \_\_|    \___/|_____|
                                                
-marc@trix:~/hacker-notes-s25m12/voice$ 
+marc@trix:~/hacker-notes-s25m12/voice
 
+
+marc@trix:~/hacker-notes-s25m12/voice
+
+Code Vachrain ...
+marc@trix:~/hacker-notes-s25m12/voice/voice/202602/R20260207
