@@ -1,0 +1,46 @@
+20K	sda1/3TB-000/$RECYCLE.BIN
+61M	sda1/3TB-000/temp
+26G	sda1/3TB-000/music-source-all
+88K	sda1/3TB-000/Tracing
+63G	sda1/3TB-000/AppData
+4.0K	sda1/3TB-000/Druckumgebung
+371M	sda1/3TB-000/Pictures
+8.0K	sda1/3TB-000/.android
+18G	sda1/3TB-000/Documents
+68G	sda1/3TB-000/Downloads
+8.0K	sda1/3TB-000/Contacts
+461G	sda1/3TB-000/hcg
+16K	sda1/3TB-000/Links
+4.0K	sda1/3TB-000/Eigene Dateien
+4.0K	sda1/3TB-000/Cookies
+284G	sda1/3TB-000/musik-hd
+4.0K	sda1/3TB-000/Anwendungsdaten
+277M	sda1/3TB-000/Calibre-Bibliothek
+4.0K	sda1/3TB-000/prit
+112K	sda1/3TB-000/rabie
+8.0K	sda1/3TB-000/Saved Games
+3.8M	sda1/3TB-000/.cache
+4.0K	sda1/3TB-000/Vorlagen
+4.0K	sda1/3TB-000/Lokale Einstellungen
+31G	sda1/3TB-000/vst.aufgeraeumt
+4.0K	sda1/3TB-000/Netzwerkumgebung
+17G	sda1/3TB-000/Telegram Desktop
+8.0K	sda1/3TB-000/OneDrive
+20K	sda1/3TB-000/Searches
+8.0K	sda1/3TB-000/.dbus-keyrings
+515M	sda1/3TB-000/Desktop
+7.1G	sda1/3TB-000/Music
+20K	sda1/3TB-000/.ssh
+532G	sda1/3TB-000/b3tb
+4.0K	sda1/3TB-000/Startmenü
+40K	sda1/3TB-000/System Volume Information
+4.0K	sda1/3TB-000/Recent
+4.0K	sda1/3TB-000/DxReport
+5.7G	sda1/3TB-000/Videos
+820K	sda1/3TB-000/pride
+4.0K	sda1/3TB-000/SendTo
+32K	sda1/3TB-000/iZotope
+40K	sda1/3TB-000/IntelGraphicsProfiles
+20K	sda1/3TB-000/Favorites
+40K	sda1/3TB-000/vimfiles
+1.5T	sda1/3TB-000/

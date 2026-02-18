@@ -1,0 +1,22 @@
+Die spezifischen Techniken, die dazu führen können, dass Decompiler abstürzen oder den Code nicht korrekt analysieren können, umfassen: 
+ 
+## Techniken, die das Decompilieren erschweren 
+ 
+| Technik | Beschreibung | 
+|--------------------------------|-----------------------------------------------------------------------------------------------| 
+| Unvollständige Instruktionen | Verwendung von unvollständigen oder inkonsistenten Maschinencodes, die die Decompiler verwirren. | 
+| Falsche Funktionssignaturen | Einfügen von nicht standardisierten oder irreführenden Funktionssignaturen, die Decompiler nicht erkennen. | 
+| Fragmentierung | Zersplittern von Funktionen in viele kleine, scheinbar zusammenhangslose Teile, die schwer zu analysieren sind. | 
+| Chaos- und Dummy-Code | Einfügen von unnötigem oder irreführendem Code, der den Decompiler ablenkt oder überlastet. | 
+| Manipulation von Sprüngen | Verwendung von bedingten oder absichtlich fehlerhaften Sprünge, die die Logik verzerren. | 
+| Unkonventionelle Datenstrukturen | Einsatz von nichtstandardmäßigen oder komplexen Datenstrukturen, die schwer nachzuvollziehen sind. | 
+ 
+### Beispiele für konkret gefährliche Anweisungen 
+ 
+- Verschachtelte Ausdrücke: Komplexe, tief verschachtelte Ausdrücke, die von Decompilern oft nicht korrekt interpretiert werden. 
+- Nutzung von Pointer und Referenzen: Irreführende Zeiger- oder Referenzoperationen, die die Programmlogik verschleiern. 
+- Fehlerhafte Metadaten: Manipulation der Metadaten im Dateikopf, die zu Fehlinterpretationen führen. 
+ 
+Durch diese Maßnahmen können Entwickler die Rückverfolgbarkeit und das Reverse Engineering ihrer Software erheblich erschweren.
+
+

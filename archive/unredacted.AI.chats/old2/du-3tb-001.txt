@@ -1,0 +1,46 @@
+1.0K	sdb2/$RECYCLE.BIN
+512	sdb2/.android
+3.8M	sdb2/.cache
+512	sdb2/.dbus-keyrings
+10K	sdb2/.ssh
+460G	sdb2/hcg
+36K	sdb2/IntelGraphicsProfiles
+16K	sdb2/iZotope
+5.0K	sdb2/Links
+0	sdb2/Lokale Einstellungen
+0	sdb2/Anwendungsdaten
+1.5K	sdb2/Favorites
+29K	sdb2/System Volume Information
+7.1G	sdb2/Music
+26G	sdb2/music-source-all
+284G	sdb2/musik-hd
+0	sdb2/Netzwerkumgebung
+512	sdb2/OneDrive
+371M	sdb2/Pictures
+820K	sdb2/pride
+0	sdb2/prit
+108K	sdb2/rabie
+0	sdb2/Recent
+512	sdb2/Saved Games
+6.0K	sdb2/Searches
+0	sdb2/SendTo
+0	sdb2/Startmenü
+17G	sdb2/Telegram Desktop
+61M	sdb2/temp
+80K	sdb2/Tracing
+5.7G	sdb2/Videos
+4.0K	sdb2/vimfiles
+0	sdb2/Vorlagen
+31G	sdb2/vst.aufgeraeumt
+63G	sdb2/AppData
+531G	sdb2/b3tb
+276M	sdb2/Calibre-Bibliothek
+512	sdb2/Contacts
+0	sdb2/Cookies
+514M	sdb2/Desktop
+18G	sdb2/Documents
+68G	sdb2/Downloads
+0	sdb2/Druckumgebung
+0	sdb2/DxReport
+0	sdb2/Eigene Dateien
+1.5T	sdb2/

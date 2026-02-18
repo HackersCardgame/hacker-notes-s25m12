@@ -1,0 +1,96 @@
+1692886703318	Sync.LogManager	DEBUG	Flushing file log
+1692886703331	Sync.LogManager	DEBUG	Log cleanup threshold time: 1692022703331
+1692886703347	Sync.LogManager	DEBUG	Done deleting files.
+1692886704742	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886705994	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886709014	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886713965	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886714982	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886720871	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886721894	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886730999	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886732806	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886747803	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886748806	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886750915	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886751942	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886767156	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886768746	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886783722	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886784757	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886785784	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886786794	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886791511	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886792518	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886805600	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886806658	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886807753	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886821652	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886822662	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886825269	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886826374	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886838470	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886839642	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886840942	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886855902	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886856950	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886858822	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886873817	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886875783	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886876806	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886883469	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886884486	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886894377	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886895942	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886910921	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886911923	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886912946	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886920473	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886921478	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886930174	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886931801	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886946761	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886947782	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886949214	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886964170	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886965445	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886966854	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886971485	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886972486	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886986759	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886987781	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886989138	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886996599	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692886997610	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692887001587	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692887003398	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692887018209	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692887019442	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692887020645	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692887036109	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692887037126	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692887038211	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692887054209	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692887055434	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692887057019	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1692887057019	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1692887057021	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1692887057022	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692887063023	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692887301227	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1692887301227	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1692887301229	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1692887301230	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692887301230	Sync.Service	DEBUG	User-Agent: Firefox/102.13.0 (Linux x86_64) FxSync/1.104.0.20230629172511.desktop
+1692887301231	Sync.Service	INFO	Starting sync at 2023-08-24 16:28:21 in browser session aM8M9xjlPgLS
+1692887301231	Sync.Service	DEBUG	In sync: should login.
+1692887301231	Sync.Service	INFO	User logged in successfully - verifying login.
+1692887301231	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState has no FxA user
+1692887301231	Sync.Status	DEBUG	Status.login: error.login.reason.no_username => error.login.reason.no_username
+1692887301231	Sync.Status	DEBUG	Status.service: service.client_not_configured => service.client_not_configured
+1692887301231	Sync.Service	DEBUG	Fetching unlocked auth state returned error.login.reason.no_username
+1692887301231	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1692887301231	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1692887301231	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1692887301231	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.no_username(resource://services-sync/service.js:1037:15) JS Stack trace: onNotify@service.js:1037:15
+1692887301232	Sync.Service	DEBUG	Not syncing: login returned false.

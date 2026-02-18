@@ -1,0 +1,388 @@
+[2023.08.25 04:12:08] Launched version: 4009002, install beta: [FALSE], alpha: 0, debug mode: [FALSE]
+[2023.08.25 04:12:08] Executable dir: /home/marc/Telegram/, name: Telegram
+[2023.08.25 04:12:08] Initial working dir: /home/marc/
+[2023.08.25 04:12:08] Working dir: /home/marc/.local/share/TelegramDesktop/
+[2023.08.25 04:12:08] Command line: /home/marc/Telegram/Telegram
+[2023.08.25 04:12:08] Executable path before check: /home/marc/Telegram/Telegram
+[2023.08.25 04:12:08] Logs started
+[2023.08.25 04:12:08] App ID: org.telegram.desktop._bf63475c2347401632982f688598f8dd
+[2023.08.25 04:12:08] Connecting local socket to c16669cd9bfc4dc8bcb856f04c5847ca-{87A94AB0-E370-4cde-98D3-ACC110C5967D}...
+[2023.08.25 04:12:08] Socket connect error 0, starting server and app...
+[2023.08.25 04:12:08] Moved logging from '/home/marc/.local/share/TelegramDesktop/log_start0.txt' to '/home/marc/.local/share/TelegramDesktop/log.txt'!
+[2023.08.25 04:12:08] Opened '/home/marc/.local/share/TelegramDesktop/tdata/working' for reading, the previous Telegram Desktop launch was not finished properly :( Crash log size: 419
+[2023.08.25 04:12:08] Font: from ':/gui/fonts/DAOpenSansRegular.ttf' loaded 'DAOpenSansRegular'
+[2023.08.25 04:12:08] Font: from ':/gui/fonts/DAVazirRegular.ttf' loaded 'DAVazirRegular'
+[2023.08.25 04:12:08] Font: from ':/gui/fonts/DAOpenSansRegularItalic.ttf' loaded 'DAOpenSansRegularItalic'
+[2023.08.25 04:12:08] Font: from ':/gui/fonts/DAVazirRegular.ttf' loaded 'DAVazirRegular'
+[2023.08.25 04:12:08] Font: from ':/gui/fonts/DAOpenSansSemiboldAsBold.ttf' loaded 'DAOpenSansSemibold'
+[2023.08.25 04:12:08] Font: from ':/gui/fonts/DAVazirMediumAsBold.ttf' loaded 'DAVazirMedium'
+[2023.08.25 04:12:08] Font: from ':/gui/fonts/DAOpenSansSemiboldItalicAsBold.ttf' loaded 'DAOpenSansSemiboldItalic'
+[2023.08.25 04:12:08] Font: from ':/gui/fonts/DAVazirMediumAsBold.ttf' loaded 'DAVazirMedium'
+[2023.08.25 04:12:08] Font: from ':/gui/fonts/DAOpenSansSemiboldAsBold.ttf' loaded 'DAOpenSansSemibold'
+[2023.08.25 04:12:08] Font: from ':/gui/fonts/DAVazirMediumAsBold.ttf' loaded 'DAVazirMedium'
+[2023.08.25 04:12:08] Font: from ':/gui/fonts/DAOpenSansSemiboldItalicAsBold.ttf' loaded 'DAOpenSansSemiboldItalic'
+[2023.08.25 04:12:08] Font: from ':/gui/fonts/DAVazirMediumAsBold.ttf' loaded 'DAVazirMedium'
+[2023.08.25 04:12:08] Update Info: MTP is unavailable.
+[2023.08.25 04:12:08] App Error: _basePath is empty in writeSettings()
+[2023.08.25 04:12:08] Global devicePixelRatio: 1
+[2023.08.25 04:12:08] Primary screen DPI: 96, Base: 96.
+[2023.08.25 04:12:08] Computed screen scale: 100
+[2023.08.25 04:12:08] DevicePixelRatio: 1
+[2023.08.25 04:12:08] ScreenScale: 100
+[2023.08.25 04:12:08] Icon theme: Adwaita
+[2023.08.25 04:12:08] Fallback icon theme: 
+[2023.08.25 04:12:08] System tray available: [FALSE]
+[2023.08.25 04:12:08] App Info: reading settings...
+[2023.08.25 04:12:08] App Info: reading encrypted settings...
+[2023.08.25 04:12:08] Lang Info: Loaded cached, keys: 5202
+[2023.08.25 04:12:09] OpenAL Logging Level: (not set)
+[2023.08.25 04:12:09] Audio Playback Devices: G435 Wireless Gaming Headset Digital Stereo (IEC958);GK208 HDMI/DP Audio Controller Digital Stereo (HDMI);RODE NT-USB Analog Stereo;Built-in Audio Digital Stereo (IEC958)
+[2023.08.25 04:12:09] Audio Playback Default Device: G435 Wireless Gaming Headset Digital Stereo (IEC958)
+[2023.08.25 04:12:09] Audio Capture Devices: G435 Wireless Gaming Headset Mono;Monitor of GK208 HDMI/DP Audio Controller Digital Stereo (HDMI);Monitor of G435 Wireless Gaming Headset Digital Stereo (IEC958);Monitor of RODE NT-USB Analog Stereo;RODE NT-USB Analog Stereo;Monitor of Built-in Audio Digital Stereo (IEC958);Built-in Audio Analog Stereo
+[2023.08.25 04:12:09] Audio Capture Default Device: G435 Wireless Gaming Headset Mono
+[2023.08.25 04:12:09] App Info: reading accounts info...
+[2023.08.25 04:12:09] App Info: reading encrypted info...
+[2023.08.25 04:12:09] App Info: reading map...
+[2023.08.25 04:12:09] App Info: reading encrypted map...
+[2023.08.25 04:12:09] App Info: reading encrypted user settings...
+[2023.08.25 04:12:09] App Info: encrypted user settings read.
+[2023.08.25 04:12:09] App Info: reading encrypted mtp data...
+[2023.08.25 04:12:09] MTP Info: read keys, current: 5, to destroy: 0
+[2023.08.25 04:12:09] Map read time: 7
+[2023.08.25 04:12:09] App Info: reading encrypted mtp config...
+[2023.08.25 04:12:09] Export Info: Destroy top bar by controller removal.
+[2023.08.25 04:12:09] OpenGL Profile: Compatibility.
+[2023.08.25 04:12:09] OpenGL Renderer: NVIDIA GeForce GT 730/PCIe/SSE2
+[2023.08.25 04:12:09] OpenGL Vendor: NVIDIA Corporation
+[2023.08.25 04:12:09] OpenGL Version: 4.6.0 NVIDIA 470.161.03
+[2023.08.25 04:12:09] OpenGL Extensions: GL_ARB_sparse_buffer, GL_EXT_texture_edge_clamp, GL_NV_geometry_shader4, GL_NV_pixel_data_range, GL_OVR_multiview, GL_ARB_texture_barrier, GL_ARB_texture_mirrored_repeat, GL_ARB_clear_buffer_object, GL_NV_point_sprite, GL_EXT_blend_subtract, GL_EXT_Cg_shader, GL_ARB_copy_buffer, GL_EXT_compiled_vertex_array, GL_KHR_parallel_shader_compile, GL_NV_timeline_semaphore, GL_ARB_fragment_layer_viewport, GL_ARB_vertex_type_2_10_10_10_rev, GL_ARB_texture_float, GL_ARB_draw_buffers_blend, GL_ARB_color_buffer_float, GL_EXT_memory_object_fd, GL_ATI_texture_mirror_once, GL_NV_texture_shader, GL_EXT_multiview_texture_multisample, GL_NV_depth_clamp, GL_ARB_ES3_1_compatibility, GL_NV_float_buffer, GL_NV_vertex_program1_1, GL_EXT_texture_swizzle, GL_ARB_debug_output, GL_ARB_shader_texture_lod, GL_ARB_enhanced_layouts, GL_SGIX_shadow, GL_NV_transform_feedback2, GL_EXT_separate_specular_color, GL_NV_texture_multisample, GL_EXT_framebuffer_sRGB, GL_ARB_shader_bit_encoding, GL_NV_shader_atomic_counters, GL_EXT_packed_float, GL_NV_packed_depth_stencil, GL_ARB_texture_filter_anisotropic, GL_ARB_texture_rg, GL_EXT_fog_coord, GL_EXT_texture_sRGB_decode, GL_NV_path_rendering, GL_ARB_viewport_array, GL_ARB_internalformat_query, GL_ARB_map_buffer_range, GL_NV_vertex_array_range, GL_NV_texture_compression_vtc, GL_ARB_sparse_texture, GL_NV_fog_distance, GL_ARB_shading_language_100, GL_ARB_texture_stencil8, GL_ARB_texture_query_lod, GL_ARB_vertex_type_10f_11f_11f_rev, GL_ARB_fragment_coord_conventions, GL_EXT_window_rectangles, GL_EXT_bindable_uniform, GL_KHR_context_flush_control, GL_ARB_shader_group_vote, GL_ARB_texture_compression, GL_ARB_seamless_cube_map, GL_NV_vertex_program2_option, GL_EXT_shadow_funcs, GL_EXT_geometry_shader4, GL_NV_texture_env_combine4, GL_ARB_compute_shader, GL_ARB_shading_language_include, GL_ARB_blend_func_extended, GL_NV_texture_barrier, GL_NV_parameter_buffer_object, GL_NV_uniform_buffer_unified_memory, GL_NV_vertex_array_range2, GL_EXT_draw_range_elements, GL_ARB_seamless_cubemap_per_texture, GL_ARB_gpu_shader_int64, GL_ARB_half_float_pixel, GL_EXT_blend_equation_separate, GL_NVX_progress_fence, GL_ARB_internalformat_query2, GL_EXT_texture_filter_anisotropic, GL_ARB_provoking_vertex, GL_ARB_compressed_texture_pixel_storage, GL_ARB_get_program_binary, GL_ARB_half_float_vertex, GL_ARB_ES2_compatibility, GL_NV_bindless_texture, GL_NV_ES1_1_compatibility, GL_ARB_compatibility, GL_EXT_timer_query, GL_SGIS_generate_mipmap, GL_EXT_polygon_offset_clamp, GL_ARB_texture_cube_map, GL_ARB_base_instance, GL_SGIS_texture_lod, GL_EXT_texture_shadow_lod, GL_NV_copy_depth_to_color, GL_ARB_pixel_buffer_object, GL_ARB_polygon_offset_clamp, GL_EXT_draw_instanced, GL_ARB_ES3_compatibility, GL_EXT_blend_color, GL_IBM_texture_mirrored_repeat, GL_EXT_transform_feedback2, GL_ARB_texture_storage, GL_ARB_buffer_storage, GL_ARB_vertex_array_bgra, GL_EXT_bgra, GL_NV_gpu_program4_1, GL_NV_vertex_program, GL_ARB_ES3_2_compatibility, GL_ARB_gl_spirv, GL_ARB_texture_storage_multisample, GL_ARB_map_buffer_alignment, GL_ARB_transform_feedback3, GL_EXT_texture_lod_bias, GL_KHR_robust_buffer_access_behavior, GL_EXT_x11_sync_object, GL_ARB_query_buffer_object, GL_NV_command_list, GL_ARB_transform_feedback_instanced, GL_NV_gpu_program5, GL_EXT_texture_sRGB, GL_ARB_timer_query, GL_ARB_texture_mirror_clamp_to_edge, GL_EXT_packed_pixels, GL_EXT_shader_integer_mix, GL_ARB_transform_feedback2, GL_NV_multisample_filter_hint, GL_ARB_depth_clamp, GL_ARB_shader_draw_parameters, GL_NV_internalformat_sample_query, GL_EXT_texture_cube_map, GL_NVX_nvenc_interop, GL_ARB_texture_rectangle, GL_ARB_vertex_attrib_binding, GL_EXT_texture_compression_latc, GL_NV_draw_texture, GL_EXT_texture_array, GL_ARB_shader_image_load_store, GL_EXT_blend_minmax, GL_EXT_stencil_two_side, GL_ARB_shader_atomic_counters, GL_NV_vertex_buffer_unified_memory, GL_NV_fragment_program_option, GL_NV_feature_query, GL_ARB_instanced_arrays, GL_ARB_shading_language_packing, GL_KHR_no_error, GL_ARB_texture_env_crossbar, GL_OVR_multiview2, GL_EXT_texture_compression_s3tc, GL_ARB_explicit_attrib_location, GL_NV_shader_buffer_load, GL_ARB_multi_bind, GL_NV_compute_program5, GL_NV_conditional_render, GL_ARB_texture_gather, GL_ARB_draw_elements_base_vertex, GL_EXT_shader_image_load_store, GL_NV_alpha_to_coverage_dither_control, GL_ARB_texture_buffer_range, GL_NV_blend_square, GL_ARB_shader_texture_image_samples, GL_ARB_occlusion_query, GL_ARB_texture_buffer_object_rgb32, GL_ARB_multi_draw_indirect, GL_ARB_framebuffer_sRGB, GL_NV_transform_feedback, GL_ARB_indirect_parameters, GL_ARB_shader_precision, GL_ARB_texture_border_clamp, GL_ARB_transform_feedback_overflow_query, GL_EXT_texture_env_add, GL_ARB_robust_buffer_access_behavior, GL_EXT_gpu_shader4, GL_ARB_get_texture_sub_image, GL_NV_gpu_shader5, GL_NV_gpu_program_fp64, GL_NV_primitive_restart, GL_ARB_cull_distance, GL_ARB_spirv_extensions, GL_ARB_arrays_of_arrays, GL_ARB_shader_atomic_counter_ops, GL_EXT_draw_buffers2, GL_EXT_framebuffer_blit, GL_ATI_draw_buffers, GL_EXT_gpu_program_parameters, GL_EXT_blend_func_separate, GL_ARB_shading_language_420pack, GL_EXT_secondary_color, GL_ARB_tessellation_shader, GL_NV_vdpau_interop, GL_ARB_texture_non_power_of_two, GL_NV_fragment_program2, GL_NV_register_combiners, GL_ARB_texture_env_add, GL_ARB_texture_rgb10_a2ui, GL_ARB_texture_swizzle, GL_EXT_multi_draw_arrays, GL_EXT_multiview_timer_query, GL_NV_fragment_program, GL_EXT_texture_lod, GL_NV_explicit_multisample, GL_NV_texture_rectangle, GL_ARB_framebuffer_object, GL_ARB_bindless_texture, GL_ARB_program_interface_query, GL_NV_depth_buffer_float, GL_ARB_point_sprite, GL_ARB_texture_query_levels, GL_ATI_texture_float, GL_NV_half_float, GL_ARB_derivative_control, GL_ARB_sample_shading, GL_AMD_multi_draw_indirect, GL_ARB_occlusion_query2, GL_ARB_clip_control, GL_ARB_shader_image_size, GL_ARB_fragment_shader, GL_EXT_framebuffer_multisample, GL_ARB_texture_compression_bptc, GL_NV_texgen_reflection, GL_ARB_texture_view, GL_ARB_vertex_program, GL_ARB_framebuffer_no_attachments, GL_ARB_fragment_program_shadow, GL_NV_query_resource_tag, GL_NV_shader_subgroup_partitioned, GL_ARB_vertex_shader, GL_ARB_texture_cube_map_array, GL_NV_bindless_multi_draw_indirect, GL_EXT_abgr, GL_EXT_texture_buffer_object, GL_ARB_shader_objects, GL_ARB_texture_buffer_object, GL_EXT_texture_mirror_clamp, GL_NV_shader_atomic_int64, GL_KHR_debug, GL_EXT_texture_env_combine, GL_NV_query_resource, GL_EXT_framebuffer_multisample_blit_scaled, GL_EXT_texture_compression_dxt1, GL_ARB_parallel_shader_compile, GL_ARB_shader_clock, GL_KTX_buffer_region, GL_EXT_texture_sRGB_R8, GL_SGIX_depth_texture, GL_ARB_conditional_render_inverted, GL_ARB_transpose_matrix, GL_ARB_vertex_buffer_object, GL_NV_vertex_program2, GL_ARB_window_pos, GL_ARB_imaging, GL_NV_light_max_exponent, GL_NV_framebuffer_multisample_coverage, GL_SUN_slice_accum, GL_ARB_shader_storage_buffer_object, GL_EXT_point_parameters, GL_NV_draw_vulkan_image, GL_ARB_texture_env_combine, GL_EXT_texture3D, GL_EXT_semaphore, GL_NV_shader_atomic_float, GL_NV_gpu_program4, GL_KHR_shader_subgroup, GL_ARB_fragment_program, GL_NV_fence, GL_ARB_conservative_depth, GL_ARB_direct_state_access, GL_ARB_copy_image, GL_NV_ES3_1_compatibility, GL_NV_vdpau_interop2, GL_NV_texture_shader3, GL_ARB_gpu_shader5, GL_ARB_gpu_shader_fp64, GL_ARB_clear_texture, GL_EXT_depth_bounds_test, GL_EXT_pixel_buffer_object, GL_EXT_vertex_array, GL_NV_parameter_buffer_object2, GL_ARB_sampler_objects, GL_EXT_texture_shared_exponent, GL_ARB_separate_shader_objects, GL_S3_s3tc, GL_EXT_texture_object, GL_EXT_import_sync_object, GL_NV_bindless_multi_draw_indirect_count, GL_EXT_texture_storage, GL_KHR_robustness, GL_NV_occlusion_query, GL_NV_gpu_program5_mem_extended, GL_ARB_draw_buffers, GL_EXT_packed_depth_stencil, GL_NV_copy_image, GL_EXT_texture_env_dot3, GL_ARB_sync, GL_NV_blend_equation_advanced, GL_ARB_point_parameters, GL_ARB_texture_env_dot3, GL_EXT_rescale_normal, GL_EXT_texture_compression_rgtc, GL_EXT_memory_object, GL_NV_register_combiners2, GL_NV_vertex_attrib_integer_64bit, GL_KHR_blend_equation_advanced, GL_EXTX_framebuffer_mixed_formats, GL_NVX_conditional_render, GL_EXT_vertex_attrib_64bit, GL_NV_texture_shader2, GL_ARB_shadow, GL_EXT_separate_shader_objects, GL_ARB_vertex_attrib_64bit, GL_ARB_uniform_buffer_object, GL_EXT_provoking_vertex, GL_IBM_rasterpos_clip, GL_NVX_gpu_memory_info, GL_ARB_depth_buffer_float, GL_ARB_depth_texture, GL_EXT_stencil_wrap, GL_ARB_shader_subroutine, GL_EXT_texture_integer, GL_ARB_geometry_shader4, GL_ARB_multisample, GL_EXT_semaphore_fd, GL_ARB_texture_compression_rgtc, GL_ARB_vertex_array_object, GL_ARB_texture_multisample, GL_ARB_stencil_texturing, GL_ARB_multitexture, GL_NV_texture_rectangle_compressed, GL_ARB_pipeline_statistics_query, GL_ARB_explicit_uniform_location, GL_ARB_robustness, GL_NV_vertex_program3, GL_NV_shader_storage_buffer_object, GL_EXT_framebuffer_object, GL_ARB_draw_instanced, GL_ARB_invalidate_subdata, GL_NV_shader_thread_group, GL_ARB_shader_ballot, GL_ARB_draw_indirect, GL_EXT_vertex_array_bgra, GL_NV_robustness_video_memory_purge, GL_NV_gpu_multicast, GL_NV_shader_thread_shuffle, GL_AMD_seamless_cubemap_per_texture, GL_ARB_compute_variable_group_size, GL_EXT_direct_state_access, GL_NV_multisample_coverage
+[2023.08.25 04:12:09] OpenGL: Disable on NVIDIA driver on Linux.
+[2023.08.25 04:12:09] OpenGL: [FALSE] (Window)
+[2023.08.25 04:12:12] Config Error: Failed to parse dns response JSON, error: illegal value
+[2023.08.25 04:12:12] Config Error: Failed to parse dns response JSON, error: illegal value
+[2023.08.25 04:12:13] Config Error: Failed to parse dns response JSON, error: illegal value
+[2023.08.25 04:12:14] Config Error: Failed to parse dns response JSON, error: illegal value
+[2023.08.25 04:12:14] Config Error: Failed to parse dns response JSON, error: illegal value
+[2023.08.25 04:12:14] Config Error: Failed to parse dns response JSON, error: illegal value
+[2023.08.25 04:12:14] Config Error: Could not find Answer in dns response JSON.
+[2023.08.25 04:12:14] Config Error: Could not find Answer in dns response JSON.
+[2023.08.25 04:12:17] Config Error: Could not find Answer in dns response JSON.
+[2023.08.25 04:12:17] Config Error: Could not find Answer in dns response JSON.
+[2023.08.25 04:12:17] Config Error: Failed to parse dns response JSON, error: illegal value
+[2023.08.25 04:12:17] Config Error: Failed to parse dns response JSON, error: illegal value
+[2023.08.25 05:08:43] RPC Error: request 107 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 06:35:39] RPC Error: request 530 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.08.25 07:30:15] RPC Error: request 749 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 07:30:18] RPC Error: request 783 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.08.25 07:30:22] RPC Error: request 796 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 07:30:23] RPC Error: request 802 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 07:30:23] RPC Error: request 804 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 07:30:23] RPC Error: request 806 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 07:30:23] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2023.08.25 07:30:24] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2023.08.25 07:30:32] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2023.08.25 07:30:32] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2023.08.25 07:30:33] Message Info: bad message notification received (error_code 33) for msg_id = 7271128089076720696, seq_no = 2260
+[2023.08.25 07:37:02] Message Info: bad message notification received (error_code 33) for msg_id = 7271129759919311636, seq_no = 2454
+[2023.08.25 07:37:02] Message Info: bad message notification received, msgId 7271129759919311636, error_code 33
+[2023.08.25 07:37:02] Message Info: bad message notification received (error_code 33) for msg_id = 7271129759919452432, seq_no = 14
+[2023.08.25 07:37:02] Message Info: bad message notification received, msgId 7271129759919452432, error_code 33
+[2023.08.25 07:37:12] Skipping message, because it is already in blocks!
+[2023.08.25 07:37:12] Skipping message, because it is already in blocks!
+[2023.08.25 07:37:12] Skipping message, because it is already in blocks!
+[2023.08.25 07:37:12] Skipping message, because it is already in blocks!
+[2023.08.25 07:37:12] Skipping message, because it is already in blocks!
+[2023.08.25 07:37:24] RPC Error: request 1029 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 07:42:14] Skipping message, because it is already in blocks!
+[2023.08.25 07:43:15] RPC Error: request 1102 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 07:45:22] RPC Error: request 1245 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 07:47:37] Skipping message, because it is already in blocks!
+[2023.08.25 07:48:25] RPC Error: request 1310 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 07:49:39] API Error: Got empty admins list from server.
+[2023.08.25 07:49:41] Message Info: bad message notification received (error_code 33) for msg_id = 7271133019258168680, seq_no = 588
+[2023.08.25 07:49:41] Message Info: bad message notification received, msgId 7271133019258168680, error_code 33
+[2023.08.25 07:49:41] RPC Error: request 1410 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 07:49:44] Message Info: bad message notification received (error_code 33) for msg_id = 7271133032291441560, seq_no = 90
+[2023.08.25 07:49:44] Message Info: bad message notification received, msgId 7271133032291441560, error_code 33
+[2023.08.25 07:49:57] RPC Error: request 1502 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 07:53:50] RPC Error: request 1623 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 08:00:12] Skipping message, because it is already in blocks!
+[2023.08.25 08:00:22] RPC Error: request 1678 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 08:01:48] RPC Error: request 1694 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 08:17:06] RPC Error: request 1748 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 08:52:49] Skipping message, because it is already in blocks!
+[2023.08.25 10:08:37] Skipping message, because it is already in blocks!
+[2023.08.25 10:08:59] Skipping message, because it is already in blocks!
+[2023.08.25 10:19:44] Skipping message, because it is already in blocks!
+[2023.08.25 10:19:44] Skipping message, because it is already in blocks!
+[2023.08.25 10:19:44] Skipping message, because it is already in blocks!
+[2023.08.25 10:39:20] Skipping message, because it is already in blocks!
+[2023.08.25 10:39:36] RPC Error: request 2545 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 10:39:40] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2023.08.25 10:39:41] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2023.08.25 10:39:41] RPC Error: request 2570 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 10:39:41] RPC Error: request 2564 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 10:39:41] RPC Error: request 2563 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 10:39:42] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2023.08.25 10:39:48] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2023.08.25 10:39:51] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2023.08.25 10:41:47] Skipping message, because it is already in blocks!
+[2023.08.25 10:44:57] Skipping message, because it is already in blocks!
+[2023.08.25 10:47:36] RPC Error: request 2727 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 10:47:59] Message Info: bad message notification received (error_code 33) for msg_id = 7271178963551132604, seq_no = 14
+[2023.08.25 10:47:59] Message Info: bad message notification received, msgId 7271178963551132604, error_code 33
+[2023.08.25 10:49:37] RPC Error: request 2863 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 10:50:28] RPC Error: request 2873 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 10:50:29] Streaming Error: Error in avformat_open_input (code: -1094995529, text: Invalid data found when processing input).
+[2023.08.25 10:50:29] Message Info: bad message notification received (error_code 33) for msg_id = 7271179611024762764, seq_no = 2151
+[2023.08.25 10:50:29] Message Info: bad message notification received, msgId 7271179611024762764, error_code 33
+[2023.08.25 10:50:32] Skipping message, because it is already in blocks!
+[2023.08.25 10:51:31] Skipping message, because it is already in blocks!
+[2023.08.25 10:54:03] Skipping message, because it is already in blocks!
+[2023.08.25 10:59:51] Skipping message, because it is already in blocks!
+[2023.08.25 10:59:51] Skipping message, because it is already in blocks!
+[2023.08.25 10:59:51] Skipping message, because it is already in blocks!
+[2023.08.25 10:59:51] Skipping message, because it is already in blocks!
+[2023.08.25 10:59:51] Skipping message, because it is already in blocks!
+[2023.08.25 11:02:01] RPC Error: request 3023 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 11:06:50] RPC Error: request 3044 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 11:06:52] RPC Error: request 3057 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 11:08:34] Skipping message, because it is already in blocks!
+[2023.08.25 11:09:11] RPC Error: request 3103 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 11:09:18] Message Info: bad message notification received (error_code 33) for msg_id = 7271184460010007888, seq_no = 536
+[2023.08.25 11:09:18] Message Info: bad message notification received, msgId 7271184460010007888, error_code 33
+[2023.08.25 11:09:39] RPC Error: request 3211 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.08.25 11:09:56] Message Info: bad message notification received (error_code 33) for msg_id = 7271184624642557256, seq_no = 156
+[2023.08.25 11:09:56] Message Info: bad message notification received (error_code 33) for msg_id = 7271184624713915392, seq_no = 157
+[2023.08.25 11:09:56] Message Info: bad message notification received, msgId 7271184624713915392, error_code 33
+[2023.08.25 11:11:57] RPC Error: request 3522 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 11:12:06] Streaming Error: Error in avformat_open_input (code: -1094995529, text: Invalid data found when processing input).
+[2023.08.25 11:13:54] Skipping message, because it is already in blocks!
+[2023.08.25 11:13:54] Skipping message, because it is already in blocks!
+[2023.08.25 11:13:54] Skipping message, because it is already in blocks!
+[2023.08.25 11:18:18] Skipping message, because it is already in blocks!
+[2023.08.25 11:24:56] Skipping message, because it is already in blocks!
+[2023.08.25 11:26:30] Skipping message, because it is already in blocks!
+[2023.08.25 11:36:55] Skipping message, because it is already in blocks!
+[2023.08.25 11:37:18] RPC Error: request 3779 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 11:38:48] RPC Error: request 3790 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 11:39:19] Skipping message, because it is already in blocks!
+[2023.08.25 11:45:10] Audio Info: recreating audio device and reattaching the tracks
+[2023.08.25 11:45:20] Audio Info: Closing audio playback device.
+[2023.08.25 11:45:27] Audio Info: recreating audio device and reattaching the tracks
+[2023.08.25 11:45:30] Audio Info: Closing audio playback device.
+[2023.08.25 11:50:50] Skipping message, because it is already in blocks!
+[2023.08.25 11:54:44] Skipping message, because it is already in blocks!
+[2023.08.25 11:56:40] RPC Error: request 3935 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 11:58:37] Skipping message, because it is already in blocks!
+[2023.08.25 12:05:41] Skipping message, because it is already in blocks!
+[2023.08.25 12:08:24] RPC Error: request 4095 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 12:08:40] Skipping message, because it is already in blocks!
+[2023.08.25 12:14:40] Skipping message, because it is already in blocks!
+[2023.08.25 12:14:40] Skipping message, because it is already in blocks!
+[2023.08.25 12:14:40] Skipping message, because it is already in blocks!
+[2023.08.25 12:14:40] Skipping message, because it is already in blocks!
+[2023.08.25 12:35:09] RPC Error: request 4501 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 12:36:35] RPC Error: request 4566 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 12:38:23] RPC Error: request 4610 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.08.25 12:42:07] Skipping message, because it is already in blocks!
+[2023.08.25 12:42:12] RPC Error: request 4658 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 12:56:56] Skipping message, because it is already in blocks!
+[2023.08.25 12:57:42] RPC Error: request 4819 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 12:58:15] Skipping message, because it is already in blocks!
+[2023.08.25 12:58:34] RPC Error: request 4837 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 13:02:43] Skipping message, because it is already in blocks!
+[2023.08.25 13:03:31] RPC Error: request 4967 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 13:03:31] Message Info: bad message notification received (error_code 33) for msg_id = 7271213893854541428, seq_no = 2950
+[2023.08.25 13:03:31] Message Info: bad message notification received, msgId 7271213893854541428, error_code 33
+[2023.08.25 13:06:06] Skipping message, because it is already in blocks!
+[2023.08.25 13:07:13] Skipping message, because it is already in blocks!
+[2023.08.25 13:07:14] RPC Error: request 5017 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 13:09:41] Skipping message, because it is already in blocks!
+[2023.08.25 13:11:26] Skipping message, because it is already in blocks!
+[2023.08.25 13:15:26] Skipping message, because it is already in blocks!
+[2023.08.25 13:16:45] Skipping message, because it is already in blocks!
+[2023.08.25 13:16:48] RPC Error: request 5120 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 13:17:08] RPC Error: request 5146 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 13:18:03] Skipping message, because it is already in blocks!
+[2023.08.25 13:21:08] Skipping message, because it is already in blocks!
+[2023.08.25 13:21:20] Skipping message, because it is already in blocks!
+[2023.08.25 13:26:12] RPC Error: request 5249 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 13:26:27] RPC Error: request 5273 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 13:28:23] RPC Error: request 5291 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 13:33:58] RPC Error: request 5308 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 13:38:00] RPC Error: request 5328 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 13:38:35] RPC Error: request 5344 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 13:47:37] RPC Error: request 5376 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 14:06:09] Message Info: bad message notification received (error_code 33) for msg_id = 7271230034951031240, seq_no = 298
+[2023.08.25 14:06:09] Message Info: bad message notification received, msgId 7271230034951031240, error_code 33
+[2023.08.25 14:06:15] Skipping message, because it is already in blocks!
+[2023.08.25 14:06:15] Skipping message, because it is already in blocks!
+[2023.08.25 14:06:15] Skipping message, because it is already in blocks!
+[2023.08.25 14:06:32] RPC Error: request 5650 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 14:09:44] Skipping message, because it is already in blocks!
+[2023.08.25 14:15:46] Skipping message, because it is already in blocks!
+[2023.08.25 14:15:57] RPC Error: request 5775 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 14:16:30] RPC Error: request 5789 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 14:16:40] RPC Error: request 5792 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 14:16:46] Skipping message, because it is already in blocks!
+[2023.08.25 14:17:05] RPC Error: request 5810 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 14:18:23] Skipping message, because it is already in blocks!
+[2023.08.25 14:23:46] Skipping message, because it is already in blocks!
+[2023.08.25 14:24:15] Skipping message, because it is already in blocks!
+[2023.08.25 14:25:23] Skipping message, because it is already in blocks!
+[2023.08.25 14:33:37] Skipping message, because it is already in blocks!
+[2023.08.25 14:33:39] Skipping message, because it is already in blocks!
+[2023.08.25 14:36:09] Skipping message, because it is already in blocks!
+[2023.08.25 14:38:14] RPC Error: request 6099 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 14:38:54] Skipping message, because it is already in blocks!
+[2023.08.25 14:41:21] Skipping message, because it is already in blocks!
+[2023.08.25 14:41:51] Audio Info: recreating audio device and reattaching the tracks
+[2023.08.25 14:41:55] Audio Info: Closing audio playback device.
+[2023.08.25 14:44:21] Message Info: bad message notification received (error_code 33) for msg_id = 7271239879022152836, seq_no = 2576
+[2023.08.25 14:44:23] RPC Error: request 6370 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.08.25 14:44:26] RPC Error: request 6390 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.08.25 14:44:27] RPC Error: request 6393 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 14:44:29] RPC Error: request 6398 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 14:44:31] RPC Error: request 6408 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 14:44:44] RPC Error: request 6423 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 14:44:46] RPC Error: request 6430 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 14:44:48] RPC Error: request 6434 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 14:44:50] RPC Error: request 6442 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 14:44:52] RPC Error: request 6445 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 14:44:56] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2023.08.25 14:44:57] RPC Error: request 6462 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 14:45:05] RPC Error: request 6497 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 14:45:13] RPC Error: request 6502 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 14:45:18] RPC Error: request 6507 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 14:45:19] RPC Error: request 6514 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 14:45:21] RPC Error: request 6519 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 14:45:24] RPC Error: request 6525 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.08.25 14:45:24] RPC Error: request 6526 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 14:45:27] RPC Error: request 6530 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 14:45:30] RPC Error: request 6533 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 14:45:32] RPC Error: request 6537 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 14:45:37] RPC Error: request 6546 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 14:45:49] RPC Error: request 6562 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 14:45:51] RPC Error: request 6567 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 14:45:51] RPC Error: request 6572 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 14:45:53] RPC Error: request 6585 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 14:46:04] RPC Error: request 6598 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 14:46:19] RPC Error: request 6628 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 14:46:43] RPC Error: request 6664 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 14:46:59] RPC Error: request 6688 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 14:47:07] Skipping message, because it is already in blocks!
+[2023.08.25 14:47:18] RPC Error: request 6725 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 14:47:19] Skipping message, because it is already in blocks!
+[2023.08.25 14:48:40] RPC Error: request 7012 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 14:49:29] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2023.08.25 14:49:32] RPC Error: request 7032 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 14:49:34] RPC Error: request 7045 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 14:49:36] RPC Error: request 7048 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 14:49:38] RPC Error: request 7051 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 14:51:06] RPC Error: request 7069 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 14:52:10] Skipping message, because it is already in blocks!
+[2023.08.25 14:53:01] Skipping message, because it is already in blocks!
+[2023.08.25 14:53:36] RPC Error: request 7184 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.08.25 15:29:42] Skipping message, because it is already in blocks!
+[2023.08.25 15:29:48] RPC Error: request 7333 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 15:29:57] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2023.08.25 15:34:14] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2023.08.25 15:34:14] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2023.08.25 15:34:15] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2023.08.25 15:34:16] RPC Error: request 7558 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.25 15:34:28] RPC Error: request 7567 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 15:34:28] Message Info: bad message notification received (error_code 33) for msg_id = 7271252792938929712, seq_no = 392
+[2023.08.25 15:35:37] Message Info: bad message notification received (error_code 33) for msg_id = 7271253090450198508, seq_no = 464
+[2023.08.25 15:35:37] Message Info: bad message notification received, msgId 7271253090450198508, error_code 33
+[2023.08.25 15:36:43] Skipping message, because it is already in blocks!
+[2023.08.25 15:36:56] Skipping message, because it is already in blocks!
+[2023.08.25 15:36:58] RPC Error: request 7656 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 15:37:18] Skipping message, because it is already in blocks!
+[2023.08.25 15:37:27] RPC Error: request 7667 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 16:13:23] RPC Error: request 7931 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 16:13:27] RPC Error: request 7941 got fail with code 400, error PEER_ID_INVALID
+[2023.08.25 16:27:55] RPC Error: request 8084 got fail with code 400, error PEER_ID_INVALID
+[2023.08.26 04:08:28] RPC Error: request 9277 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.26 04:08:28] RPC Error: request 9281 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.26 04:08:28] RPC Error: request 9282 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.26 04:08:28] RPC Error: request 9278 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.26 04:08:28] RPC Error: request 9276 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.26 04:08:28] RPC Error: request 9275 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.26 04:08:28] RPC Error: request 9279 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.26 04:08:28] RPC Error: request 9249 got fail with code 400, error PEER_ID_INVALID
+[2023.08.26 04:08:29] RPC Error: request 9280 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.08.26 04:08:29] Message Info: bad message notification received (error_code 33) for msg_id = 7271447110168165736, seq_no = 1322
+[2023.08.26 04:08:29] Message Info: bad message notification received (error_code 33) for msg_id = 7271447110510347640, seq_no = 6
+[2023.08.26 04:08:29] Message Info: bad message notification received, msgId 7271447110510347640, error_code 33
+[2023.08.26 04:08:29] Message Info: bad message notification received (error_code 33) for msg_id = 7271447110510186628, seq_no = 1358
+[2023.08.26 04:08:29] Message Info: bad message notification received (error_code 33) for msg_id = 7271447110510402960, seq_no = 6
+[2023.08.26 04:08:29] Message Info: bad message notification received (error_code 33) for msg_id = 7271447110510609856, seq_no = 6
+[2023.08.26 04:08:29] Message Info: bad message notification received, msgId 7271447110510402960, error_code 33
+[2023.08.26 04:08:29] Message Info: bad message notification received, msgId 7271447110510609856, error_code 33
+[2023.08.26 04:08:29] Message Info: bad message notification received, msgId 7271447110510186628, error_code 33
+[2023.08.26 04:08:30] RPC Error: request 9349 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.08.26 04:08:30] RPC Error: request 9360 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.08.26 04:08:31] RPC Error: request 9362 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.08.26 04:08:31] RPC Error: request 9363 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.08.26 04:08:31] RPC Error: request 9365 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.08.26 04:08:32] RPC Error: request 9373 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.08.26 04:08:32] RPC Error: request 9376 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.08.26 04:08:32] RPC Error: request 9378 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.08.26 04:08:33] Message Info: bad message notification received (error_code 33) for msg_id = 7271447128096777644, seq_no = 70
+[2023.08.26 04:08:33] Message Info: bad message notification received, msgId 7271447128096777644, error_code 33
+[2023.08.26 04:08:33] Message Info: bad message notification received (error_code 33) for msg_id = 7271447128582403016, seq_no = 16
+[2023.08.26 04:08:33] Message Info: bad message notification received, msgId 7271447128582403016, error_code 33
+[2023.08.26 04:10:38] App Error: Can't read history till unknown local message.
+[2023.08.26 04:10:38] App Error: Can't read history till unknown local message.
+[2023.08.26 04:10:38] App Error: Can't read history till unknown local message.
+[2023.08.26 04:10:38] App Error: Can't read history till unknown local message.
+[2023.08.26 04:10:38] App Error: Can't read history till unknown local message.
+[2023.08.26 04:10:38] App Error: Can't read history till unknown local message.
+[2023.08.26 04:10:38] App Error: Can't read history till unknown local message.
+[2023.08.26 04:10:38] App Error: Can't read history till unknown local message.
+[2023.08.26 04:10:38] App Error: Can't read history till unknown local message.
+[2023.08.26 04:10:38] App Error: Can't read history till unknown local message.
+[2023.08.26 04:10:38] App Error: Can't read history till unknown local message.
+[2023.08.26 04:10:38] App Error: Can't read history till unknown local message.
+[2023.08.26 04:10:38] App Error: Can't read history till unknown local message.
+[2023.08.26 04:10:38] App Error: Can't read history till unknown local message.
+[2023.08.26 04:10:38] App Error: Can't read history till unknown local message.
+[2023.08.26 04:10:38] App Error: Can't read history till unknown local message.
+[2023.08.26 04:10:38] App Error: Can't read history till unknown local message.
+[2023.08.26 04:10:38] App Error: Can't read history till unknown local message.
+[2023.08.26 04:10:38] Skipping message, because it is already in blocks!
+[2023.08.26 04:12:13] MTP Info: -404 error received in 4 with temporary key, assuming it was destroyed.
+[2023.08.26 04:12:52] Message Info: bad message notification received (error_code 33) for msg_id = 7271448241498925980, seq_no = 34
+[2023.08.26 04:12:52] Message Info: bad message notification received, msgId 7271448241498925980, error_code 33
+[2023.08.26 04:12:58] App Error: Can't read history till unknown local message.
+[2023.08.26 04:12:58] App Error: Can't read history till unknown local message.
+[2023.08.26 04:12:58] App Error: Can't read history till unknown local message.
+[2023.08.26 04:12:58] App Error: Can't read history till unknown local message.
+[2023.08.26 04:12:58] App Error: Can't read history till unknown local message.
+[2023.08.26 04:12:58] App Error: Can't read history till unknown local message.
+[2023.08.26 04:12:58] App Error: Can't read history till unknown local message.
+[2023.08.26 04:12:58] App Error: Can't read history till unknown local message.
+[2023.08.26 04:12:58] App Error: Can't read history till unknown local message.
+[2023.08.26 04:12:58] App Error: Can't read history till unknown local message.
+[2023.08.26 04:12:58] App Error: Can't read history till unknown local message.
+[2023.08.26 04:12:58] App Error: Can't read history till unknown local message.
+[2023.08.26 04:13:01] Skipping message, because it is already in blocks!
+[2023.08.26 04:13:36] RPC Error: request 9573 got fail with code 400, error PEER_ID_INVALID
+[2023.08.26 04:44:05] Message Info: bad message notification received (error_code 33) for msg_id = 7271456280103425248, seq_no = 72
+[2023.08.26 04:44:05] Message Info: bad message notification received, msgId 7271456280103425248, error_code 33
+[2023.08.26 04:44:06] MTP Info: -404 error received in 160004 with temporary key, assuming it was destroyed.
+[2023.08.26 04:44:07] Message Info: bad message notification received (error_code 33) for msg_id = 7271456292785540096, seq_no = 94
+[2023.08.26 04:44:07] Message Info: bad message notification received, msgId 7271456292785540096, error_code 33
+[2023.08.26 04:44:10] Skipping message, because it is already in blocks!
+[2023.08.26 04:51:16] RPC Error: request 10338 got fail with code 400, error PEER_ID_INVALID
+[2023.08.26 04:51:16] Skipping message, because it is already in blocks!
+[2023.08.26 04:51:16] Skipping message, because it is already in blocks!
+[2023.08.26 04:51:16] Message Info: bad message notification received (error_code 33) for msg_id = 7271458135539813872, seq_no = 222
+[2023.08.26 04:51:16] Message Info: bad message notification received, msgId 7271458135539813872, error_code 33
+[2023.08.26 04:52:57] RPC Error: request 10381 got fail with code 400, error PEER_ID_INVALID
+[2023.08.26 04:54:54] Skipping message, because it is already in blocks!
+[2023.08.26 06:18:19] MTP Info: -404 error received in 160002 with temporary key, assuming it was destroyed.
+[2023.08.26 06:18:19] MTP Info: -404 error received in 170002 with temporary key, assuming it was destroyed.
+[2023.08.26 06:18:20] MTP Info: -404 error received in 160001 with temporary key, assuming it was destroyed.
+[2023.08.26 06:19:01] Could not send ping for some seconds, restarting...

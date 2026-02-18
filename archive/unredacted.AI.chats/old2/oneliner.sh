@@ -1,0 +1,1 @@
+yt-dlp --extract-audio --audio-format wav https://www.youtube.com/watch?v=GSmYJ60bW9s -o a.wav && AUDIOFILE="a.wav" && START_TIME="19:47.73" && END_TIME="23:19.57" && sox "$AUDIOFILE" loop.wav trim "$START_TIME" ="$END_TIME" && ffmpeg -i loop.wav loop.mp3 && mpg123 -v --loop -1 loop.mp3

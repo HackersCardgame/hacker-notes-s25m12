@@ -1,0 +1,4 @@
+/dev/sdc1        57G  7.8G   46G  15% /
+/dev/sda1       2.7T  1.9T  734G  72% /root/sda1
+/dev/sdb2       2.8T  2.1T  674G  76% /root/sdb2
+/dev/sdd1       916G  813G   58G  94% /root/sdd1

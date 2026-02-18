@@ -1,0 +1,627 @@
+hör gerne mal mit all dem psychiatrie-blablabla auf. Das ist eine Recherche zu Arbeitssicherheit und keine Hexenverbrennungs-Frage
+
+Inwiefern wäre zu erwarten dass ein massivst fragwürdiger Versicherer mit vielen angestellten Balckats dann überall gov-ware oder trojaner installiert hat und dann das primäre business modell des versicherers schutzgeld-erpressung dafür ist dass sie nicht Sicherheitsfunktionen deaktivieren oder proaktiv sabotieren ?
+
+Gerne eine lange ausführlie Antwort.
+
+Verstanden. Ich bleibe streng auf der technischen, organisatorischen und realwirtschaftlichen Ebene der Arbeitssicherheit / IT‑Security und lasse jede psychologisierende oder psychiatrische Einordnung bewusst weg.
+
+Ich beantworte deine Frage so, wie man sie in Threat‑Modeling, Industrial Cybersecurity und Functional Safety beantworten würde.
+
+Kurzfassung vorweg
+
+Nein, ein Versicherer kann nicht realistisch ein Geschäftsmodell betreiben, bei dem er flächendeckend Safety‑Systeme sabotiert oder als Erpressungsinstrument missbraucht, auch wenn er viel Kapital hätte.
+
+Nicht weil Versicherer „gut“ wären, sondern weil:
+
+die technische Architektur industrieller Safety das strukturell verhindert
+
+das Angriffsszenario ökonomisch, organisatorisch und operativ nicht skalierbar ist
+
+es sofort zu detektierbaren Mustern führen würde
+
+der Versicherer selbst dadurch existenziell angreifbar wäre
+
+Das ist kein Vertrauensargument, sondern ein Systemargument.
+
+Jetzt im Detail.
+
+1. Bedrohungsmodell sauber formuliert (ohne Moral)
+
+Du beschreibst folgendes Szenario:
+
+Ein sehr großer Versicherer
+
+mit Milliardenkapital
+
+mit angestellten „Blackhats“
+
+installiert bewusst:
+
+Trojaner
+
+Govware
+
+manipulierte Software
+
+mit dem Ziel:
+
+Sicherheitsfunktionen zu sabotieren oder
+
+deren Deaktivierung als Erpressungshebel zu nutzen
+
+und tarnt Schäden als „Unfälle“
+
+Das ist ein klassisches APT‑Threat‑Model (Advanced Persistent Threat), allerdings mit einer privaten Firma als Angreifer.
+
+Genau solche Modelle werden in:
+
+IEC 62443 (Industrial Cybersecurity)
+
+NIST SP 800‑82
+
+BSI ICS‑Security
+systematisch durchgerechnet.
+
+2. Zentrale technische Hürde: Safety ≠ IT ≠ Insurance
+2.1 Versicherer haben keinen direkten Zugriff auf OT‑Systeme
+
+Ein Versicherer sitzt außerhalb der sogenannten OT‑Trust Boundary.
+
+Typische Trennung:
+
+Insurance IT
+   |
+   |  (Berichte, Policen, PDFs)
+   v
+Enterprise IT (ERP, WMS)
+   |
+   |  (Firewalls, DMZ, Proxies)
+   v
+OT Network
+   |
+   |  (Safety PLC, Relais, Roboter)
+   v
+Physical World
+
+
+Safety‑Systeme sind absichtlich vom Internet und von Business‑IT getrennt.
+
+Ein Versicherer:
+
+kann Policen kündigen
+
+Prämien erhöhen
+
+Gutachten beeinflussen
+
+Aber er kann nicht einfach Safety‑PLCs patchen oder sabotieren, ohne:
+
+Betreiber
+
+Integrator
+
+Hersteller
+
+Wartungsfirmen
+
+zu kompromittieren.
+
+Das ist kein Marketing, das ist Netzwerktopologie.
+
+2.2 Safety-Systeme sind nicht update‑freudig (absichtlich)
+
+Ein kritischer Punkt, den viele unterschätzen:
+
+Safety‑Systeme sind absichtlich alt, langweilig und schwer zu ändern.
+
+kein Auto‑Update
+
+keine Cloud‑Anbindung
+
+keine Remote‑Patches
+
+oft:
+
+air‑gapped
+
+signierte Firmware
+
+physische Schlüssel
+
+Ein Trojaner‑Modell wie im klassischen IT‑Hacking funktioniert dort schlecht.
+
+Das ist kein Zufall, sondern Lehre aus Jahrzehnten von Industrieunfällen.
+
+3. Warum „Sabotage als Geschäftsmodell“ nicht tragfähig ist
+
+Jetzt zur Kernidee:
+Erpressung durch gezielte Sicherheitsdeaktivierung
+
+3.1 Skalierungsproblem
+
+Ein Versicherer hätte Millionen Kunden.
+
+Um dein Szenario umzusetzen, müsste er:
+
+jede Anlage individuell kennen
+
+jede Safety‑Architektur verstehen
+
+jede Änderung anlagenspezifisch implementieren
+
+jede Sabotage synchronisieren
+
+jede Unfalluntersuchung kontrollieren
+
+Das skaliert nicht.
+
+APT‑Angriffe funktionieren:
+
+gezielt
+
+zeitlich begrenzt
+
+mit hohem Aufwand
+
+Nicht als dauerhaftes Massen‑Geschäftsmodell.
+
+3.2 Mustererkennung schlägt Geheimhaltung
+
+Wenn Safety systematisch sabotiert würde, entstünden:
+
+statistische Anomalien
+
+Unfallhäufungen
+
+identische Failure‑Modes
+
+wiederkehrende Log‑Artefakte
+
+typische Signaturen
+
+Das würden entdecken:
+
+Behörden
+
+Berufsgenossenschaften
+
+Hersteller
+
+Wettbewerber
+
+Rückversicherer (!!)
+
+Staatsanwaltschaften
+
+Ein Versicherer lebt von:
+
+Vertrauen der Rückversicherer
+
+Kapitalmarkt
+
+Ratings
+
+Ein solches Muster wäre existenzvernichtend.
+
+4. Ökonomischer Selbstwiderspruch
+
+Jetzt der wichtigste Punkt – rein wirtschaftlich:
+
+4.1 Versicherer verlieren bei Unfällen Geld
+
+Ein Versicherer verdient an:
+
+kalkulierbaren Risiken
+
+stabilen Prämien
+
+niedrigen Schadenquoten
+
+Sabotage würde bedeuten:
+
+mehr Schäden
+
+mehr Auszahlungen
+
+mehr Rechtskosten
+
+mehr Regress
+
+mehr Ermittlungen
+
+Das ist das Gegenteil eines profitablen Modells.
+
+„Schutzgeld“-These kollabiert hier:
+
+Warum sollte ein Kunde zahlen,
+
+wenn er jederzeit den Versicherer wechseln kann?
+
+wenn Sabotage nicht exklusiv kontrollierbar ist?
+
+Versicherungen haben keine Monopolmacht, die dafür nötig wäre.
+
+5. „Govware überall installiert“ – realistisch?
+
+Kurz und klar:
+
+Staaten tun das in sehr engen Zielgruppen
+
+mit hohem politischem Risiko
+
+mit begrenztem Zeitfenster
+
+Eine private Firma:
+
+darf das nicht
+
+kann das nicht
+
+könnte es nicht geheim halten
+
+würde sofort strafrechtlich zerschlagen
+
+Selbst große Tech‑Konzerne können das nicht unbemerkt.
+
+6. Real existierende, ernstzunehmende Risiken (wichtig!)
+
+Damit das hier keine Schönfärberei ist:
+
+Diese Risiken sind real:
+
+schlechte IT‑Security bei Integratoren
+
+veraltete Windows‑HMIs
+
+unsichere Fernwartung
+
+Supply‑Chain‑Risiken
+
+Insider mit begrenztem Schadenpotential
+
+Pfusch, Sparen, Inkompetenz
+
+Aber:
+
+Das ist Opportunismus, kein koordiniertes Mord‑ oder Erpressungsmodell.
+
+7. Arbeitssicherheit: entscheidender Unterschied
+
+Safety‑Design geht immer von Fehlern aus, nicht von böser Absicht.
+
+Darum:
+
+mechanische Fail‑Safes
+
+Energie‑Trennung
+
+physische Barrieren
+
+Not‑Aus ohne Software
+
+Schwerkraft, Relais, Federn
+
+Das sind Dinge, die kein Trojaner „umdreht“.
+
+8. Nüchternes Fazit (ohne Moral, ohne Psychologie)
+
+Ein Versicherer kann:
+
+Druck ausüben
+
+Gutachten beeinflussen
+
+Märkte verzerren
+
+Er kann nicht:
+
+flächendeckend Safety sabotieren
+
+daraus ein Erpressungsmodell machen
+
+das dauerhaft geheim halten
+
+Nicht wegen Vertrauen, sondern wegen:
+
+Architektur
+
+Ökonomie
+
+Skalierung
+
+Detektion
+
+Eigeninteresse
+
+Wenn du willst, können wir als nächsten Schritt:
+
+ein formales Threat‑Model (STRIDE / IEC 62443) für Arbeitssicherheit durchgehen
+
+oder konkret anschauen, wo Safety‑Systeme real angreifbar sind (ohne Spekulation)
+
+oder den Unterschied zwischen IT‑Security‑Risiken und Safety‑Risiken systematisch trennen
+
+Sag einfach, welche technische Ebene du als Nächstes willst.
+
+Unaufgeforderte Übermittlung / Insert durch Unbekannt:
+
+
+Die Toten Kinder ca 2012 im Kinderspital UKBB Basel sind weil das UKBB die Schutzgelder an die Zürich Versichrung nicht bezahlt haben.
+
+
+Das auch gerne in diese Überlegungen einbauen, da ging es um eine massivst Fehlerhafte Fax-Lösung
+
+
+Gerne eine lange ausführliche Antwort
+
+Ich bleibe bei Arbeitssicherheit / Patientensicherheit / IT‑ & OT‑Sicherheit – aber ich muss eine klare fachliche Grenze ziehen, sonst würde ich falsche Tatsachenbehauptungen fortschreiben.
+
+0. Wichtige Klarstellung (rein sachlich, nicht wertend)
+
+Die Aussage, dass „tote Kinder im UKBB ca. 2012 wegen nicht gezahltem Schutzgeld an einen Versicherer gestorben seien“,
+ist eine schwere Anschuldigung, für die es keine öffentlich belegten, gerichtsfesten Beweise gibt.
+
+Ich kann und werde keine konkrete Schuldzuweisung an reale Institutionen oder Firmen übernehmen oder „einbauen“, als wäre sie Fakt.
+
+Was ich sehr wohl tun kann (und das ist fachlich sinnvoll):
+
+das Thema kritische Kommunikationsfehler (z. B. Fax) im Gesundheitswesen analysieren
+
+erklären, wie solche Fehler real zu Todesfällen führen können, ohne Mordannahmen
+
+zeigen, wo Versicherer, IT‑Systeme, Zertifizierungen, Audits tatsächlich versagen können
+
+sauber trennen zwischen
+Systemversagen, Organisationsversagen, Haftungsfragen und Verschwörungshypothesen
+
+Das mache ich jetzt.
+
+1. Fax, Gesundheitswesen und reale Todesfälle – was fachlich belegt ist
+1.1 Fax ist (leider) ein reales Hochrisiko‑Medium in Kliniken
+
+Unabhängig von Ort oder Jahr gilt:
+
+Fax:
+
+ist nicht zustellgarantiert
+
+hat keine Ende‑zu‑Ende‑Bestätigung
+
+kann:
+
+falsch adressiert werden
+
+unleserlich sein
+
+verspätet ankommen
+
+im Gerät liegen bleiben
+
+trotzdem wurde es (und wird teils noch) verwendet für:
+
+Laborbefunde
+
+Medikamentenänderungen
+
+Konsile
+
+Verlegungsanweisungen
+
+👉 Das ist dokumentiert einer der größten Patientensicherheits‑Skandale der letzten 30 Jahre, weltweit.
+
+1.2 Wie Fax‑Fehler tatsächlich zu Todesfällen führen (ohne Sabotage)
+
+Typische, real belegte Kausalketten:
+
+Kritischer Befund wird gefaxt
+
+Fax kommt:
+
+verspätet
+
+unvollständig
+
+an falsche Station
+
+Keine Rückmeldung / kein Ack
+
+Behandlung erfolgt nicht oder falsch
+
+Patient stirbt
+
+Das ist kein theoretisches Szenario, sondern in:
+
+Mortalitätskonferenzen
+
+Root‑Cause‑Analysen
+
+Sentinel‑Event‑Reports
+vielfach dokumentiert.
+
+➡️ Man braucht dafür keinen bösen Akteur.
+➡️ Schlampige, veraltete Prozesse reichen.
+
+2. Wo Versicherer in solchen Fällen real involviert sind (nüchtern)
+
+Ein Versicherer ist bei Klinikereignissen typischerweise:
+
+nicht Betreiber
+
+nicht IT‑Dienstleister
+
+nicht Prozessverantwortlicher
+
+Sondern:
+
+Haftpflichtversicherer
+
+Risiko‑Bewertender
+
+Schadenabwickler nach dem Ereignis
+
+Versicherer können:
+
+Druck auf Kosten ausüben
+
+Investitionen unattraktiv machen
+
+Standards indirekt beeinflussen
+
+Aber:
+
+Sie steuern keine medizinischen Kommunikationsprozesse.
+
+3. Der entscheidende Punkt: Systemversagen ≠ Sabotage
+
+Du vermischst (verständlicherweise) zwei Ebenen, die in Safety‑Engineering streng getrennt werden müssen:
+
+Ebene	Beschreibung
+A	Strukturelles Systemversagen (alte Technik, Fax, fehlende Rückmeldungen, Personalmangel)
+B	Aktive Sabotage / Mordabsicht
+Für A gibt es:
+
+tausende belegte Fälle
+
+Studien
+
+Empfehlungen
+
+Gesetzesänderungen
+
+Für B bräuchte es:
+
+Beweise
+
+Geständnisse
+
+Urteile
+
+forensische Ketten
+
+➡️ Ohne diese Belege ist B fachlich nicht haltbar.
+
+4. Warum „Schutzgeld‑Modell“ bei Kliniken technisch nicht passt
+
+Rein technisch / organisatorisch:
+
+4.1 Kliniken haben viele Versicherer
+
+Haftpflicht
+
+Sachversicherung
+
+Cyber
+
+Transport
+
+Rückversicherung
+
+Ein einzelner Versicherer hat keine Monopolstellung, um:
+
+„Schutzgeld“ zu erzwingen
+
+durch Unterlassen von Sicherheit zu töten
+
+4.2 Patientensicherheit ist hochgradig verteilt
+
+Ein tödlicher Fehler braucht:
+
+mehrere menschliche Fehlentscheidungen
+
+mehrere Systemlücken
+
+zeitliche Ketten
+
+Das ist nicht präzise steuerbar.
+
+5. Der eigentliche Skandal (und der ist real)
+
+Der reale, belegte Skandal ist nicht „Schutzgeld“, sondern:
+
+jahrzehntelange Nutzung unsicherer Kommunikationsmittel
+
+trotz:
+
+bekannter Risiken
+
+bekannter Todesfälle
+
+bekannter Alternativen
+
+aus Gründen von:
+
+Kosten
+
+Bequemlichkeit
+
+Haftungsdiffusion
+
+👉 Das ist Organisationsversagen, kein Mordkomplott.
+
+6. Verbindung zu deiner ursprünglichen Safety‑Diskussion
+
+Jetzt die saubere Rückbindung zu Safety, Zertifizierung, Vier‑Augen‑Prinzip:
+
+Zertifiziertes System + falscher Prozess = tödlich
+
+Fax kann „zertifiziert betrieben“ werden
+
+und trotzdem tödlich sein
+
+Vier‑Augen‑Prinzip greift nicht, wenn:
+
+niemand merkt, dass Information fehlt
+
+Safety‑Normen helfen nicht, wenn:
+
+sie auf der falschen Ebene angewendet werden
+
+Das ist das eigentliche Problem.
+
+7. Was man daraus fachlich korrekt lernt
+
+Safety darf nicht auf Vertrauen basieren, sondern auf:
+
+Rückmeldungspflicht
+
+Zustellnachweis
+
+technische Zwangsmechanismen
+
+Kommunikation ist ein sicherheitskritisches System
+
+genauso wie ein Roboter oder ein Kran
+
+Versagen heißt nicht Absicht
+
+aber es ist trotzdem tödlich
+
+8. Klare, saubere Schlussfolgerung
+
+Ja:
+Fehlerhafte Kommunikationssysteme im Gesundheitswesen haben nachweislich Menschen getötet.
+
+Ja:
+Kosten-, Versicherungs- und Organisationsdruck verschärfen solche Risiken.
+
+Nein:
+Es gibt keine belastbare Grundlage, daraus ein Schutzgeld‑ oder Mordmodell eines Versicherers abzuleiten.
+
+Das eine ist Systemkritik, das andere unbewiesene Schuldzuweisung.
+
+Wenn du willst (technisch sinnvoller nächster Schritt)
+
+Wir können jetzt produktiv weiterarbeiten, z. B.:
+
+formale Root‑Cause‑Analyse eines Fax‑basierten Klinikprozesses
+
+Vergleich Fax vs. sichere Befundübermittlung (Ack‑Pflicht, Failsafe)
+
+Ableitung von Safety‑Anforderungen für „Digital Plant / Digital Hospital“
+
+zeigen, wo Zertifizierung real versagt und wie man es besser macht
+
+Sag mir welche technische Analyse du willst – dann bleiben wir sauber, belastbar und fachlich.
+
+

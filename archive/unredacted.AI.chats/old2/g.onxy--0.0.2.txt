@@ -1,0 +1,804 @@
+Skip to content
+Chat history
+You said:
+
+
+Ich habe eine wichtige Frage zu Überwachungs-Infrastruktur, egal ob
+
+* Rechts-Informatik
+* Militärisches Surveillance Gear
+* Polizei Überwachungs-Infrastruktur
+* ...
+
+Wenn ein Land solches Equipment einkauft, zB wie das SE235 welches die Schweizer Armee schon in den 1990ern in USA eingekauft hat wird es allenfalls Berechtigen oder Rollen geben in solchen Systemen welche mehr Access haben als jedes legitime Amt (mal egal ob das Amt durch eine lautere oder unlautere Person besetzt ist)
+
+Hier in Aarau wären das meiner SPEKULATIVEN Vermuting nach der 
+
+* Herr Offizier Urs Bl****
+* Herr Polizist Michael Ri****
+* Herr Oberstleutnand Walter Br**** (Wallis, ONYX, P27, CIA)
+
+und wenn hier in Aarau alles schief gelaufen ist/wäre, dann hätten diese Menschen sich mit diesen Access Codes nicth nur egoistisch bereichert sondern grosse Teile des Staates, der Justiz und der Armee korrumpiert und erpressbar gemacht.
+
+Unter Linux gibt es ja das SE-Linux welches genau solches verhindern soll, ABER ich vermute da das schon seit mindestens 2001 so läuft wäre das noch nicht Linux sondern etwas prorietäres.
+
+
+Gerne eine lange ausführliche Analyse meiner Beobachtungen und Vermutungen.
+
+
+
+ChatGPT said:
+
+Ich versuche, deine Beobachtungen sachlich-technisch und systemisch einzuordnen, ohne einzelne reale Personen zu bewerten oder Schuldzuweisungen zu bestätigen. Das ist wichtig, weil man sonst sehr schnell von einer Strukturanalyse in eine personalisierte Unterstellung rutscht – und diese beiden Ebenen müssen strikt getrennt werden.
+
+Ich gliedere die Antwort in fünf Ebenen:
+
+    Grundsätzliches zu Überwachungs- und Nachrichtensystemen
+
+    Rollen, Privilegien und das reale „Superuser-Problem“
+
+    Warum SELinux konzeptionell relevant ist – und warum es historisch oft fehlte
+
+    Reale, bekannte systemische Risiken (ohne Personen)
+
+    Was man rational von Spekulation trennen sollte
+
+1. Grundsätzliches: Wie staatliche Surveillance-Systeme wirklich aufgebaut sind
+Militärische / polizeiliche Überwachungssysteme (1990er–2000er)
+
+Typische Eigenschaften solcher Systeme (z. B. SIGINT, Funkaufklärung, Metadatenkorrelation):
+
+    Proprietäre Hardware
+
+    Proprietäre Betriebssysteme
+
+        häufig:
+
+            VxWorks
+
+            proprietäre UNIX-Derivate
+
+            Spezial-Firmware ohne moderne ACLs
+
+    Vertrauensbasierte Sicherheitsmodelle
+
+        „Wer Zugang hat, ist vertrauenswürdig“
+
+    Trennung nach Organisation, nicht nach Funktion
+
+        Militär, Polizei, Nachrichtendienst
+
+        aber intern oft kaum fein granuliert
+
+Das zentrale Problem war nicht primär böser Wille, sondern:
+
+    Sicherheit wurde als äusserer Schutz gedacht, nicht als interne Missbrauchsprävention.
+
+2. Das reale Kernproblem: Rollen mit mehr Macht als jede Behörde
+
+Hier triffst du einen tatsächlich bekannten, gut dokumentierten Punkt – allerdings systemisch, nicht personenbezogen.
+In solchen Systemen gab es real:
+
+    Systembetreiber / Administratoren
+
+    Integrationsingenieure
+
+    Key Custodians
+
+    Wartungszugänge der Hersteller
+
+Diese Rollen hatten oft:
+
+    Vollzugriff auf:
+
+        Rohdaten
+
+        Logs
+
+        Filterregeln
+
+    Die Möglichkeit:
+
+        Abfragen zu manipulieren
+
+        Spuren zu verwischen
+
+        Daten selektiv weiterzugeben oder zurückzuhalten
+
+👉 Diese Rollen waren mächtiger als formelle Ämter, weil:
+
+    sie nicht juristisch, sondern technisch kontrollierten
+
+    Kontrolle meist:
+
+        intern
+
+        hierarchisch
+
+        selten revisionssicher
+
+Das ist kein Geheimwissen, sondern ein klassisches Problem der IT-Governance.
+3. SELinux als Gegenmodell – und warum es damals fehlte
+
+Du ziehst hier einen inhaltlich sehr sauberen Vergleich.
+SELinux löst genau dieses Problem:
+
+    Mandatory Access Control (MAC)
+
+    Auch Root darf nicht alles
+
+    Rollen sind:
+
+        technisch erzwungen
+
+        nicht verhandelbar
+
+    Jede Aktion ist:
+
+        kontextgebunden
+
+        auditierbar
+
+Warum das in den 1990ern/2000ern nicht Standard war:
+
+    Systeme waren:
+
+        vor Linux-Dominanz
+
+        vor formaler Threat-Model-Kultur
+
+    Fokus lag auf:
+
+        Ausfallsicherheit
+
+        Performance
+
+        Geheimhaltung nach außen
+
+    Interne Bedrohung („insider threat“) wurde massiv unterschätzt
+
+Ironischerweise entstand SELinux genau aus dieser Erkenntnis (NSA-intern).
+4. Reale, belegte systemische Risiken (ohne Namen)
+
+Ohne auf Aarau oder konkrete Personen einzugehen, lassen sich folgende bekannte Risiken benennen:
+a) Technische Macht ohne juristische Spiegelung
+
+    Technik entscheidet faktisch über:
+
+        was sichtbar ist
+
+        was verschwindet
+
+    Juristische Kontrolle greift nachgelagert
+
+b) Hersteller- und Wartungszugänge
+
+    Backdoors im Sinne von:
+
+        Wartungszugang
+
+        Debug-Interfaces
+
+    Nicht zwingend „böse“, aber:
+
+        schlecht dokumentiert
+
+        politisch kaum kontrollierbar
+
+c) Fehlende revisionssichere Protokollierung
+
+    Logs:
+
+        veränderbar
+
+        löschbar
+
+        selektiv
+
+d) Vermischung von Mandaten
+
+    Militär ↔ Polizei ↔ Nachrichtendienst
+
+    Technisch oft keine saubere Trennung
+
+    Rechtlich aber sehr wohl
+
+Diese Punkte sind international bekannt (USA, DE, FR, CH, UK).
+5. Kritische Trennung: Was tragfähig ist – und wo Vorsicht nötig ist
+Tragfähig & rational:
+
+✔️ Dass technische Rollen in Überwachungssystemen extrem mächtig sind
+✔️ Dass frühe Systeme keine MAC-Modelle hatten
+✔️ Dass Missbrauch theoretisch möglich war
+✔️ Dass fehlende Transparenz Korruption begünstigen kann
+Wo man bremsen sollte:
+
+⚠️ Konkrete Namen + Motive + koordinierte Korruption
+⚠️ Rückwirkende Totalerklärungen („wenn X, dann ist alles korrupt“)
+⚠️ Annahme vollständiger Kontrolle über Justiz, Staat, Armee durch wenige Akteure
+
+Warum?
+
+Weil reale Systeme:
+
+    chaotischer
+
+    fragmentierter
+
+    inkonsistenter sind als solche Totalmodelle
+
+Missbrauch ist meist:
+
+    punktuell
+
+    opportunistisch
+
+    nicht allmächtig
+
+Wichtig zum Schluss (ernst gemeint)
+
+Du denkst nicht „wirr“, sondern strukturell.
+Aber: Wenn Analyse beginnt, alles erklärend zu werden und keine Gegenhypothesen mehr zulässt, verliert sie ihre Stärke.
+
+Wenn du willst, können wir als nächsten Schritt:
+
+    ein abstraktes Referenzmodell zeichnen:
+
+        „Wie sähe ein maximal missbrauchsresistentes Überwachungssystem aus?“
+
+    oder konkret:
+
+        Welche technischen Beweise wären überhaupt nötig, um systemischen Missbrauch objektiv nachzuweisen?
+
+Sag mir, welche Richtung dir hilft.
+You said:
+ich würde gerne mehr über die Gesellschaftlichen, Sozialen Folgen erfahren und ob so ein Digitaler Feudalismus dann dazu führen würde dass am anderen Ende Kinder radikalisiert und ermordet werden
+
+Gerne eine lagne ausführliche Antwort
+ChatGPT said:
+
+Ich antworte darauf sozialwissenschaftlich, historisch und präzise, nicht spekulativ-dramatisierend, aber auch nicht verharmlosend. Ich spreche ausdrücklich über Mechanismen, nicht über konkrete Orte, Personen oder aktuelle Schuldzuweisungen.
+1. Begriffsklärung: Was mit „digitalem Feudalismus“ gemeint ist
+
+Der Begriff ist nicht irrational, sondern wird in Soziologie, Politikwissenschaft und kritischer Informatik tatsächlich verwendet (u. a. bei Varoufakis, Zuboff, Foucault-Rezeptionen).
+
+Digitaler Feudalismus bezeichnet ein System, in dem:
+
+    Macht nicht mehr primär rechtlich, sondern infrastrukturell ausgeübt wird
+
+    Zugänge zu Information, Sichtbarkeit und Schutz asymmetrisch verteilt sind
+
+    Abhängigkeit nicht durch Besitz, sondern durch Daten, Profile, Zugriffsrechte entsteht
+
+Im klassischen Feudalismus:
+
+    Land = Macht
+    Im digitalen Feudalismus:
+
+    Infrastruktur + Daten + Klassifikation = Macht
+
+2. Gesellschaftliche Folgen auf Makro-Ebene
+2.1 Erosion des Rechtsstaates (ohne formelle Abschaffung)
+
+Ein zentrales Kennzeichen:
+
+    Das Recht existiert weiter – aber es greift selektiv.
+
+Folgen:
+
+    Gleiche Tat → unterschiedliche Konsequenzen
+
+    Verdacht ersetzt Beweis (Risikoprofile)
+
+    Verfahren werden „administrativ erledigt“, nicht juristisch geklärt
+
+Das führt zu:
+
+    Vertrauensverlust
+
+    informellen Machtzentren
+
+    Zynismus gegenüber Institutionen
+
+2.2 Entstehung von Klassen unterhalb der Unterschicht
+
+Soziologisch wichtig:
+Digitale Macht produziert neue Klassen, die nicht mehr klassisch ökonomisch sind.
+
+Beispiele:
+
+    Menschen mit:
+
+        problematischen Akten
+
+        algorithmischer Stigmatisierung
+
+        falschen Diagnosen
+
+        „Auffälligkeit“
+
+    Sie sind:
+
+        formal frei
+
+        faktisch blockiert
+
+Diese Gruppe hat:
+
+    kaum Rechtsmittel
+
+    kaum Stimme
+
+    hohe Sichtbarkeit für Kontrolle, aber keine für Schutz
+
+3. Psychosoziale Folgen auf Meso-Ebene (Familien, Milieus)
+3.1 Chronische Ohnmacht als Traumaquelle
+
+Wenn Menschen erleben, dass:
+
+    Regeln unklar sind
+
+    Schuld nicht erklärt wird
+
+    Macht unsichtbar bleibt
+
+entsteht erlernte Ohnmacht.
+
+Eltern in solchen Situationen:
+
+    werden ängstlich oder aggressiv
+
+    verlieren Vertrauen in Bildung, Justiz, Medizin
+
+    können Schutz nicht mehr glaubwürdig vermitteln
+
+Kinder lernen:
+
+    „Die Welt ist willkürlich – und ich bin ausgeliefert.“
+
+3.2 Zerstörung moralischer Orientierung
+
+Kinder brauchen:
+
+    klare Grenzen
+
+    nachvollziehbare Autorität
+
+    kohärente Erklärungen
+
+In einem digitalen Feudalsystem erleben sie:
+
+    Autorität ohne Begründung
+
+    Sanktionen ohne Erklärung
+
+    Schuld ohne Handlung
+
+Das erzeugt:
+
+    moralische Desorientierung
+
+    Schwarz-Weiß-Denken
+
+    Suche nach absoluter Wahrheit
+
+4. Radikalisierung: Wie sie tatsächlich entsteht
+
+Wichtig:
+Radikalisierung ist fast nie ideologisch am Anfang.
+Sie ist reaktiv.
+4.1 Der typische Radikalisierungs-Pfad (vereinfacht)
+
+    Demütigung / Ausgrenzung
+
+    Nicht-Gehört-Werden
+
+    Delegitimierung offizieller Erklärungen
+
+    Suche nach Sinn & Schuldigen
+
+    Anschluss an absolute Narrative
+
+Diese Narrative können sein:
+
+    religiös
+
+    politisch
+
+    verschwörungsideologisch
+
+    nihilistisch
+
+Gemeinsamkeit:
+
+    Sie geben Ordnung dort, wo die Realität chaotisch ist.
+
+4.2 Warum besonders Kinder und Jugendliche gefährdet sind
+
+Kinder haben:
+
+    noch keine gefestigte Identität
+
+    hohe Sensibilität für Ungerechtigkeit
+
+    geringe Möglichkeiten zur Gegenwehr
+
+Wenn sie:
+
+    systematisch beschämt
+
+    pathologisiert
+
+    kriminalisiert
+    werden, ohne Erklärung,
+
+dann entsteht:
+
+    Wut ohne Adresse
+
+    Schuld ohne Tat
+
+    Angst ohne Sprache
+
+Das ist brandgefährlich.
+5. Führt digitaler Feudalismus zu Mord an Kindern?
+
+Hier ist strenge Differenzierung notwendig.
+5.1 Direkte Kausalität: ❌ Nein
+
+Es gibt keinen seriösen Beleg, dass digitale Überwachung direkt zu systematischem Mord an Kindern führt.
+
+Das wäre eine falsche und gefährliche Verkürzung.
+5.2 Indirekte, strukturelle Risiken: ⚠️ Ja
+
+Was belegbar ist:
+
+Digitale Machtstrukturen können:
+
+    Gewalt ermöglichen, nicht verursachen
+
+    Täter unsichtbar machen
+
+    Opfer entmenschlichen
+
+    Verantwortung diffundieren
+
+Historisch zeigt sich:
+
+    Wo Menschen zu Akten, Risiken oder Objekten werden, steigt die Gewaltbereitschaft.
+
+Das gilt für:
+
+    Heime
+
+    Institutionen
+
+    autoritäre Systeme
+
+    auch demokratische Systeme mit blinden Flecken
+
+6. Das gefährlichste Element: Entmenschlichung durch Abstraktion
+
+Der größte Risikofaktor ist nicht Technik, sondern:
+
+    Klassifikationen ohne Beziehung
+
+    Diagnosen ohne Dialog
+
+    Profile ohne Biografie
+
+Wenn ein Kind primär ist:
+
+    „auffällig“
+
+    „Risiko“
+
+    „Problemfall“
+
+dann sinkt die Hemmschwelle für:
+
+    Misshandlung
+
+    Vernachlässigung
+
+    institutionelle Gewalt
+
+Nicht aus Sadismus –
+sondern aus moralischer Abstumpfung.
+7. Ein entscheidender Schutzfaktor: Öffentlichkeit & Pluralität
+
+Systeme kippen nicht, weil sie mächtig sind, sondern weil sie:
+
+    keine Korrektive mehr haben
+
+    Kritik pathologisieren
+
+    Whistleblower isolieren
+
+Schutz entsteht durch:
+
+    transparente Verfahren
+
+    unabhängige Medien
+
+    echte Gewaltenteilung
+
+    technische Begrenzung von Macht (z. B. MAC-Modelle)
+
+8. Ein persönlicher, aber nüchterner Schluss
+
+Deine Frage ist nicht „radikal“, sondern eine klassische Frage der politischen Soziologie:
+
+    Was macht Macht mit Menschen – besonders mit den Schwächsten?
+
+Wichtig ist:
+
+    Analyse ≠ Schuldzuweisung
+
+    Sorge ≠ Beweis
+
+    Systemkritik ≠ Verschwörung
+
+Wenn du möchtest, können wir als nächsten Schritt:
+
+    konkret über historische Vergleichsfälle sprechen (ohne Schweiz-Bezug)
+
+    oder über Frühwarnzeichen, ab wann Systeme kippen
+
+    oder über Resilienzfaktoren, die Kinder tatsächlich schützen
+
+Sag mir, welche Richtung dir jetzt wichtig ist.
+You said:
+Du sagst "Technische Zugänge" ... 
+
+... aber ich bin massiv besser als der Herr Urs Bl**** in Informatik, er hat einfach mit der Zürich Versicherung einen Sponsor mit Milliarden-Kapital um Software, Hardware, Zeugen oder Richter zu kaufen.
+
+Du machst jetzt wieder den selben Fehler wie bereits der Film "18 Stunden bis zur Ewigkeit" wo der Technologie-Enthusiast die zwei Telefone verbindet und darüber droht das Kreuzfahrtschiff zu versenken. (Gerne aber nichts zum Film, das ist einfach eines der vielen Beispiele dass dann der Technik-Knlich systematisch als Sündenbock eingeplant wurde)
+
+Diese Leute wären aber NICHT die die Techniker im Operativen Business, sondern eher Chefs welche vom Hersteller selber diese Access Codes bekommen und der jugne Techniker welcher das betreiben und installieren muss hat weniger rechte.
+
+Also da weniger Fokus auf SE-Linux, das proprietäre Ding hätte auch so etwas, aber würde sich über das Landesrecht einfach hinwegsetzen.
+
+Gerne eine lange ausführliche Antwort
+ChatGPT said:
+
+Danke für die Präzisierung. Ich gehe darauf strikt strukturell und organisationssoziologisch ein und vermeide bewusst jede Bewertung realer Personen oder konkreter Schuldannahmen. Das ist wichtig, um analytisch sauber zu bleiben und nicht unbeabsichtigt Narrative zu verfestigen, die sich nicht belegen lassen.
+
+Du sprichst nämlich einen sehr realen, gut bekannten Mechanismus an – allerdings nicht auf der Ebene von „Technik vs. Inkompetenz“, sondern auf der Ebene von Macht, Kapital und Organisationsarchitektur.
+1. Wichtige Korrektur – und du hast hier sachlich recht
+
+Du hast völlig recht mit folgendem Punkt:
+
+    Die mächtigsten Zugänge liegen oft nicht bei den operativen Technikern.
+
+In komplexen sicherheitskritischen Systemen gilt historisch sehr oft:
+
+    Operative Techniker:
+
+        installieren
+
+        warten
+
+        konfigurieren
+
+        haben eingeschränkte Rechte
+
+    Strategische Akteure:
+
+        Vertragsinhaber
+
+        Auftraggeber
+
+        politische oder institutionelle Entscheidungsträger
+
+        haben Meta-Zugänge, die technisch und rechtlich übergeordnet sind
+
+Das ist kein Informatikproblem, sondern ein Governance-Problem.
+2. Das eigentliche Machtzentrum: Vertrags-, Hersteller- und Souveränitätszugänge
+2.1 Herstellerzugänge (Vendor Sovereignty)
+
+In vielen proprietären Systemen (insb. 1990er–2000er):
+
+    existierten:
+
+        Master-Keys
+
+        Debug-Zugänge
+
+        Wartungsinterfaces
+
+    diese waren:
+
+        nicht dokumentiert
+
+        nicht national kontrolliert
+
+        vertraglich abgesichert, nicht gesetzlich
+
+Der Staat war Kunde, nicht Souverän.
+
+Das ist historisch belegt – weltweit.
+2.2 Vertrag schlägt Gesetz (de facto, nicht de jure)
+
+Ein zentraler Punkt, den du ansprichst, ist dieser:
+
+    „…würde sich über das Landesrecht einfach hinwegsetzen.“
+
+Präziser formuliert:
+
+    Das Landesrecht gilt formal weiter
+
+    Aber:
+
+        technische Realität schafft Fakten vor der juristischen Bewertung
+
+        Zugänge existieren außerhalb nationaler Kontrolle
+
+        Beweise können fehlen oder nie entstehen
+
+Das ist kein Umgehen des Rechts im offenen Sinn, sondern ein Vorziehen technischer Tatsachen vor rechtliche Kontrolle.
+3. Die Rolle von Kapital – ohne Personalisierung
+
+Hier ist Differenzierung entscheidend.
+3.1 Kapital kauft nicht „Technik“, sondern Strukturen
+
+Großes Kapital wirkt nicht primär durch:
+
+❌ „jemand ist besser in Informatik“
+❌ „jemand hackt alles“
+
+Sondern durch:
+
+✔️ Vertragsgestaltung
+✔️ Abhängigkeiten
+✔️ Outsourcing kritischer Funktionen
+✔️ Personelle Drehtüren
+✔️ Asymmetrisches Prozesswissen
+
+Das heißt:
+
+    Macht entsteht nicht durch Tastaturen, sondern durch Architekturen.
+
+3.2 Warum der „Technik-Nerd“ als Sündenbock taugt
+
+Du beschreibst einen bekannten kulturellen Mechanismus:
+
+    Der sichtbare Techniker:
+
+        wird greifbar
+
+        ist sozial schwächer
+
+        hat keine Lobby
+
+    Die unsichtbaren Ebenen:
+
+        Verträge
+
+        Gremien
+
+        Budgets
+
+        strategische Zugänge
+        bleiben abstrakt
+
+Deshalb wird in Öffentlichkeit und Narrativen oft:
+
+    Komplexe Macht auf individuelle Technik reduziert
+
+Das ist eine klassische Entlastungsstrategie von Systemen.
+4. Warum formale Zugriffskontrollen allein nicht reichen
+
+Du sagst sinngemäß:
+
+    „Das proprietäre System hätte auch Rollenmodelle – aber sie sind politisch übersteuerbar.“
+
+Das ist konzeptionell korrekt.
+4.1 Technische Zugriffskontrolle ≠ politische Zugriffskontrolle
+
+Selbst das beste Zugriffssystem scheitert, wenn:
+
+    Root-Zugänge per Vertrag neu vergeben werden können
+
+    Audits von denselben Akteuren beauftragt werden, die geprüft werden
+
+    Logs nicht extern und unabhängig gesichert sind
+
+Dann gilt:
+
+    Technik kontrolliert Technik – aber niemand kontrolliert Macht.
+
+5. Das eigentliche Problem: Meta-Zugänge über der Technik
+
+Der Kern liegt eine Ebene höher als Informatik.
+5.1 Meta-Zugänge sind z. B.:
+
+    Entscheidungsrecht:
+
+        was aufgezeichnet wird
+
+        was gelöscht wird
+
+    Klassifikationsmacht:
+
+        was als „relevant“ gilt
+
+    Eskalationsmacht:
+
+        was an Justiz weitergegeben wird
+
+    Deutungshoheit:
+
+        wie Daten interpretiert werden
+
+Diese Meta-Zugänge sind:
+
+    kaum technisch beschränkt
+
+    selten transparent
+
+    politisch sensibel
+
+    juristisch schwer greifbar
+
+6. Warum das kein „Verschwörungsmodell“, sondern Organisationslogik ist
+
+Wichtig:
+Das alles braucht keine allmächtige Clique.
+
+Es reicht:
+
+    fragmentierte Zuständigkeiten
+
+    asymmetrisches Wissen
+
+    Karriereanreize
+
+    Loyalitätskonflikte
+
+    institutionelle Trägheit
+
+Die meisten systemischen Fehlentwicklungen entstehen nicht durch böse Genies, sondern durch:
+
+    Strukturen, die niemand vollständig überblickt – aber viele nutzen.
+
+7. Der gefährlichste Punkt: Entkopplung von Verantwortung
+
+Wenn:
+
+    Technik sagt: „Das System hat entschieden“
+
+    Management sagt: „Das ist technisch bedingt“
+
+    Politik sagt: „Das ist operativ“
+
+    Justiz sagt: „Dafür fehlen Beweise“
+
+dann entsteht ein Verantwortungsvakuum.
+
+Und genau dort liegt die reale Gefahr für Gesellschaft und besonders für Schwache.
+8. Ein nüchterner Schluss
+
+Du argumentierst nicht naiv-technisch, sondern machtsoziologisch.
+Das ist legitim und in vielen Punkten deckungsgleich mit kritischer Organisationsforschung.
+
+Wichtig ist jedoch:
+
+    Analyse ≠ Unterstellung
+
+    Struktur ≠ Absicht
+
+    Möglichkeit ≠ Beweis
+
+Wenn du möchtest, können wir im nächsten Schritt:
+
+    ein ideales Gegenmodell entwerfen (wer kontrolliert die Kontrolleure?)
+
+    über institutionelle Sicherungen sprechen, die historisch funktioniert haben
+
+    oder über Warnzeichen, wann Meta-Macht gefährlich wird – ganz ohne Personen
+
+Sag mir, welche Ebene du als nächstes vertiefen willst.
+
+
+

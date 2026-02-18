@@ -1,0 +1,218 @@
+17:10:41.479: Using EGL/X11
+17:10:41.479: CPU Name: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz
+17:10:41.479: CPU Speed: 4400.359MHz
+17:10:41.480: Physical Cores: 6, Logical Cores: 12
+17:10:41.480: Physical Memory: 31951MB Total, 6010MB Free
+17:10:41.480: Kernel Version: Linux 6.1.0-3-amd64
+17:10:41.480: Distribution: "Debian GNU/Linux" "12"
+17:10:41.480: Session Type: x11
+17:10:41.480: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+17:10:41.482: Qt Version: 5.15.8 (runtime), 5.15.8 (compiled)
+17:10:41.482: Portable mode: false
+17:10:41.536: OBS 29.0.2.1-1+b1 (linux)
+17:10:41.536: ---------------------------------
+17:10:41.589: ---------------------------------
+17:10:41.589: audio settings reset:
+17:10:41.589: 	samples per sec: 48000
+17:10:41.589: 	speakers:        2
+17:10:41.589: 	max buffering:   960 milliseconds
+17:10:41.589: 	buffering type:  dynamically increasing
+17:10:41.599: ---------------------------------
+17:10:41.599: Initializing OpenGL...
+17:10:41.635: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GT 730/PCIe/SSE2
+17:10:41.635: OpenGL loaded successfully, version 3.3.0 NVIDIA 470.161.03, shading language 3.30 NVIDIA via Cg compiler
+17:10:41.659: ---------------------------------
+17:10:41.659: video settings reset:
+17:10:41.659: 	base resolution:   1920x1080
+17:10:41.659: 	output resolution: 1920x1080
+17:10:41.659: 	downscale filter:  Bicubic
+17:10:41.659: 	fps:               60/1
+17:10:41.659: 	format:            NV12
+17:10:41.659: 	YUV mode:          Rec. 709/Partial
+17:10:41.659: NV12 texture support not available
+17:10:41.659: P010 texture support not available
+17:10:41.686: Audio monitoring device:
+17:10:41.686: 	name: Default
+17:10:41.686: 	id: default
+17:10:41.686: ---------------------------------
+17:10:41.688: Failed to load 'en-US' text for module: 'decklink-captions.so'
+17:10:41.690: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+17:10:41.692: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+17:10:41.692: Failed to initialize module 'decklink.so'
+17:10:41.747: [pipewire] Available captures:
+17:10:41.747: [pipewire]     - Desktop capture
+17:10:41.747: [pipewire]     - Window capture
+17:10:41.755: v4l2loopback not installed, virtual camera disabled
+17:10:41.871: NVENC supported
+17:10:41.878: VAAPI: API version 1.17
+17:10:41.880: FFmpeg VAAPI H264 encoding supported
+17:10:41.906: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.1.0 | RPC Version: 1)
+17:10:41.906: [obs-websocket] [obs_module_load] Qt version (compile-time): 5.15.8 | Qt version (run-time): 5.15.8
+17:10:41.906: [obs-websocket] [obs_module_load] Linked ASIO Version: 102201
+17:10:41.921: [obs-websocket] [obs_module_load] Module loaded.
+17:10:41.937: [vlc-video]: VLC 3.0.18 Vetinari found, VLC video source enabled
+17:10:41.937: ---------------------------------
+17:10:41.937:   Loaded Modules:
+17:10:41.937:     vlc-video.so
+17:10:41.937:     text-freetype2.so
+17:10:41.937:     rtmp-services.so
+17:10:41.937:     obs-x264.so
+17:10:41.937:     obs-websocket.so
+17:10:41.937:     obs-transitions.so
+17:10:41.937:     obs-outputs.so
+17:10:41.937:     obs-filters.so
+17:10:41.937:     obs-ffmpeg.so
+17:10:41.937:     linux-v4l2.so
+17:10:41.937:     linux-pulseaudio.so
+17:10:41.937:     linux-pipewire.so
+17:10:41.937:     linux-jack.so
+17:10:41.937:     linux-capture.so
+17:10:41.937:     linux-alsa.so
+17:10:41.937:     image-source.so
+17:10:41.937:     frontend-tools.so
+17:10:41.937:     decklink-output-ui.so
+17:10:41.937:     decklink-captions.so
+17:10:41.937: ---------------------------------
+17:10:41.938: ==== Startup complete ===============================================
+17:10:41.974: All scene data cleared
+17:10:41.974: ------------------------------------------------
+17:10:41.978: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.65) 15.0.0'
+17:10:41.978: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+17:10:41.978: pulse-input: Started recording from 'alsa_output.usb-Logitech_G_series_G435_Wireless_Gaming_Headset_202105190004-00.iec958-stereo.monitor' (default)
+17:10:41.978: [Loaded global audio device]: 'Desktop Audio'
+17:10:41.979: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.65) 15.0.0'
+17:10:41.979: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+17:10:41.979: pulse-input: Started recording from 'alsa_input.usb-Logitech_G_series_G435_Wireless_Gaming_Headset_202105190004-00.mono-fallback' (default)
+17:10:41.979: [Loaded global audio device]: 'Mic/Aux'
+17:10:41.980: xshm-input: Geometry 1920x1080 @ 3840,0
+17:10:41.984: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:10:41.984: xshm-input: Geometry 1920x1080 @ 3840,0
+17:10:41.985: xshm-input: Geometry 1920x1080 @ 0,0
+17:10:41.990: jack-input: jack_client_open Error:Could not create JACK client! JACK Input Client
+17:10:41.990: Failed to create source 'JACK Input Client'!
+17:10:41.991: xshm-input: Geometry 1920x1080 @ 3840,0
+17:10:41.992: Switched to scene 'Scene'
+17:10:41.992: ------------------------------------------------
+17:10:41.992: Loaded scenes:
+17:10:41.992: - scene 'Scene':
+17:10:41.992:     - source: 'Screen Capture (XSHM)' (xshm_input)
+17:10:41.992:     - source: 'JACK Input Client' (jack_output_capture)
+17:10:41.992:     - source: 'Audio Capture Device (ALSA)' (alsa_input_capture)
+17:10:41.992: - scene 'Scene 2':
+17:10:41.992:     - source: 'Screen Capture (XSHM) 2' (xshm_input)
+17:10:41.992: - scene 'Scene 3':
+17:10:41.992:     - source: 'Screen Capture (XSHM) 3' (xshm_input)
+17:10:41.992: - scene 'Scene 4':
+17:10:41.992:     - source: 'Screen Capture (XSHM) 4' (xshm_input)
+17:10:41.992: ------------------------------------------------
+17:10:42.549: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Mic/Aux)
+17:10:42.549: 
+17:10:42.592: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+17:10:42.592: 
+17:10:42.985: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:10:44.985: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:10:47.281: User switched to scene 'Scene 2'
+17:10:47.986: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:10:49.014: User switched to scene 'Scene 3'
+17:10:50.289: User switched to scene 'Scene 4'
+17:10:51.987: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:10:52.377: User switched to scene 'Scene'
+17:10:56.988: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:11:01.988: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:11:06.989: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:11:11.989: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:11:16.990: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:11:21.991: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:11:26.992: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:11:31.992: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:11:36.993: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:11:41.993: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:11:46.994: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:11:51.995: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:11:56.996: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:12:01.997: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:12:06.999: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:12:11.999: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:12:17.000: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:12:22.001: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:12:27.002: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:12:32.003: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:12:37.003: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:12:42.004: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:12:47.005: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:12:52.006: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:12:57.006: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:13:02.007: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:13:07.008: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:13:12.009: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:13:17.009: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:13:22.011: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:13:27.011: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:13:33.543: Last log entry repeated for 1 more lines
+17:13:33.543: ==== Shutting down ==================================================
+17:13:33.641: pulse-input: Stopped recording from 'alsa_output.usb-Logitech_G_series_G435_Wireless_Gaming_Headset_202105190004-00.iec958-stereo.monitor'
+17:13:33.641: pulse-input: Got 6864 packets with 8236800 frames
+17:13:33.641: pulse-input: Stopped recording from 'alsa_input.usb-Logitech_G_series_G435_Wireless_Gaming_Headset_202105190004-00.mono-fallback'
+17:13:33.641: pulse-input: Got 6865 packets with 8238000 frames
+17:13:37.012: All scene data cleared
+17:13:37.012: ------------------------------------------------
+17:13:37.013: alsa-input: Failed to open 'front:CARD=Headset,DEV=0': Device or resource busy
+17:13:37.101: [obs-websocket] [obs_module_unload] Shutting down...
+17:13:37.101: [obs-websocket] [obs_module_unload] Finished shutting down.
+17:13:37.105: [Scripting] Total detached callbacks: 0
+17:13:37.105: Freeing OBS context data
+17:13:37.186: == Profiler Results =============================
+17:13:37.187: run_program_init: 707.024 ms
+17:13:37.187:  ┣OBSApp::AppInit: 6.606 ms
+17:13:37.187:  ┃ ┗OBSApp::InitLocale: 1.989 ms
+17:13:37.187:  ┗OBSApp::OBSInit: 593.096 ms
+17:13:37.187:    ┣obs_startup: 2.37 ms
+17:13:37.187:    ┗OBSBasic::OBSInit: 483.443 ms
+17:13:37.187:      ┣OBSBasic::InitBasicConfig: 0.111 ms
+17:13:37.187:      ┣OBSBasic::ResetAudio: 0.316 ms
+17:13:37.187:      ┣OBSBasic::ResetVideo: 96.606 ms
+17:13:37.187:      ┣OBSBasic::InitOBSCallbacks: 0.006 ms
+17:13:37.187:      ┣OBSBasic::InitHotkeys: 0.036 ms
+17:13:37.187:      ┣obs_load_all_modules2: 250.963 ms
+17:13:37.187:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+17:13:37.187:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+17:13:37.187:      ┃ ┣obs_init_module(decklink.so): 0.116 ms
+17:13:37.187:      ┃ ┣obs_init_module(frontend-tools.so): 34.747 ms
+17:13:37.187:      ┃ ┣obs_init_module(image-source.so): 0.004 ms
+17:13:37.187:      ┃ ┣obs_init_module(linux-alsa.so): 0.002 ms
+17:13:37.187:      ┃ ┣obs_init_module(linux-capture.so): 0.826 ms
+17:13:37.187:      ┃ ┣obs_init_module(linux-jack.so): 0.001 ms
+17:13:37.187:      ┃ ┣obs_init_module(linux-pipewire.so): 1.284 ms
+17:13:37.187:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.001 ms
+17:13:37.187:      ┃ ┣obs_init_module(linux-v4l2.so): 2.596 ms
+17:13:37.187:      ┃ ┣obs_init_module(obs-ffmpeg.so): 15.095 ms
+17:13:37.187:      ┃ ┃ ┗nvenc_check: 5.617 ms
+17:13:37.187:      ┃ ┣obs_init_module(obs-filters.so): 0.033 ms
+17:13:37.187:      ┃ ┣obs_init_module(obs-outputs.so): 0.003 ms
+17:13:37.187:      ┃ ┣obs_init_module(obs-transitions.so): 0.01 ms
+17:13:37.187:      ┃ ┣obs_init_module(obs-websocket.so): 14.928 ms
+17:13:37.187:      ┃ ┣obs_init_module(obs-x264.so): 0.003 ms
+17:13:37.187:      ┃ ┣obs_init_module(rtmp-services.so): 0.502 ms
+17:13:37.187:      ┃ ┣obs_init_module(text-freetype2.so): 0.026 ms
+17:13:37.187:      ┃ ┗obs_init_module(vlc-video.so): 5.41 ms
+17:13:37.187:      ┣OBSBasic::ResetOutputs: 0.164 ms
+17:13:37.187:      ┣OBSBasic::CreateHotkeys: 0.03 ms
+17:13:37.187:      ┣OBSBasic::InitService: 1.462 ms
+17:13:37.187:      ┣OBSBasic::InitPrimitives: 0.086 ms
+17:13:37.187:      ┗OBSBasic::Load: 55.833 ms
+17:13:37.187: obs_hotkey_thread(25 ms): min=0.072 ms, median=1.845 ms, max=46.86 ms, 99th percentile=9.563 ms, 99.8604% below 25 ms
+17:13:37.187: audio_thread(Audio): min=0.005 ms, median=0.028 ms, max=17.592 ms, 99th percentile=0.082 ms
+17:13:37.187: obs_graphics_thread(16.6667 ms): min=0.049 ms, median=26.936 ms, max=93.679 ms, 99th percentile=34.206 ms, 6.20249% below 16.667 ms
+17:13:37.187:  ┣tick_sources: min=0 ms, median=26.334 ms, max=57.606 ms, 99th percentile=31.725 ms
+17:13:37.187:  ┣output_frame: min=0.031 ms, median=0.125 ms, max=24.526 ms, 99th percentile=0.247 ms
+17:13:37.187:  ┃ ┗gs_context(video->graphics): min=0.03 ms, median=0.125 ms, max=24.525 ms, 99th percentile=0.247 ms
+17:13:37.187:  ┃   ┣render_video: min=0.018 ms, median=0.099 ms, max=24.44 ms, 99th percentile=0.198 ms
+17:13:37.187:  ┃   ┃ ┗render_main_texture: min=0.014 ms, median=0.091 ms, max=24.418 ms, 99th percentile=0.185 ms
+17:13:37.187:  ┃   ┗gs_flush: min=0.003 ms, median=0.006 ms, max=22.972 ms, 99th percentile=0.021 ms
+17:13:37.187:  ┗render_displays: min=0.009 ms, median=0.405 ms, max=70.665 ms, 99th percentile=2.975 ms
+17:13:37.187: =================================================
+17:13:37.187: == Profiler Time Between Calls ==================
+17:13:37.187: obs_hotkey_thread(25 ms): min=25.135 ms, median=26.927 ms, max=71.948 ms, 8.65922% within ±2% of 25 ms (0% lower, 91.3408% higher)
+17:13:37.187: obs_graphics_thread(16.6667 ms): min=3.636 ms, median=26.94 ms, max=93.683 ms, 6.11221% within ±2% of 16.667 ms (0.0760225% lower, 93.8118% higher)
+17:13:37.187: =================================================
+17:13:37.221: Number of memory leaks: 0

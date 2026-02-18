@@ -1,0 +1,38 @@
+
+0x8.ch/HackersCardgame/2.0.ne23
+
+
+te Technologie
+ha Hacking
+hw hardware
+pr Programmieren
+dp Design Patterns
+
+ma Medizin Allgemein
+ne Neurologie
+bi Biologie 
+
+ch chemical things
+dr illegal drugs
+me medikamente
+
+ps Psychologie 
+pr Psychiater
+mo MentalOperatingSystem 
+sy symbolism
+
+so Soziologie
+
+ki kids
+en environment
+
+pt PsychoTherapie
+
+Zuerst mal Deutsch
+
+Fraben -> passend zum Bild?
+
+Neue Vorlage A7, weniger Layer => Vorlage im editor zuerst anschauen
+
+Lernaufwand: 4 Wochen / 8h Pro Tag
+

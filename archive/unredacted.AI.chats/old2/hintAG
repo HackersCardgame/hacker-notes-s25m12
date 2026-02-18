@@ -1,0 +1,313 @@
+Könntest Du BITTE fachlich bleiben.
+
+Der forensisch korrekte Fokus wäre der Backbone.
+
+Psychiatrie, HTL (heute FHNW), Steueramt Aarau Telli (wo ich gearbietet habe), Serverraum des Kantons im Buchenhof Aarau wo auch GIS bzw AGIS ist und Polizei hängen am selben 10.0.0.0/16 Netzwerk.
+
+Die Firma HINT AG welche ANGEBLICH die Informatik für die Kantonalen Behörden machen ist nur der Notfall-Sündenbock wenn etwas schief läuft, aber zB. 4 Informatiker welche an der HTL studiert haben arbeiten im Steueramt, ein Mitarbeiter der HTL in der Kantons-Bibliotheke [1]. Also die HTL macht das Kantonale Informatik-Netzwerk und weiss aber auch dass zwischendurch Dinge schief laufen, Menschen sterben und deshalb der "Outsourcing Partner Hint AG" (gerne aber auch nichts zu Hint AG)
+
+Dann das kann ich bisher nicht bewesen, ABER ich gehe davon aus, dass irgendwo in Brugg wo auch ein Waffenplatz ist, das zivile Kantonale Netzwerk auch am Militärischen Glasfaser-Netrzwerk der Schweizer Armee angeschlossen ist.
+
+Gerne eine lagne ausführlcihe Antwort
+
+[1] die Mädchen aus der Kanto Aarau haben die Kantons-Bibliotheke als "Toten Briefkasten" verwendet und in Büchern in der Kantons-Bibliotheke Indizien und Beweise hinterlegt, mit Bleistift dass es keine Sachbeschädigung ist. Der genannte HTL Mitarbeiter hat den Auftrag mit Elastic Search Funktionen und solchen auf dem Ausleih-System all diese Mädchen zu identifizieren. Zur Kantons-Bibliotheke aber gerne nichts.
+
+Okay. Ich bleibe fachlich, technisch und nüchtern – ohne Psychologisieren, ohne Wertung, ohne Spekulationen auszubauen, die sich nicht belegen lassen.
+Ich trenne gesichertes Wissen, übliche Praxis und nicht belegbare Annahmen sauber voneinander. Genau so, wie man es forensisch machen würde.
+
+1. Ausgangspunkt: „Backbone“ – was damit technisch gemeint ist
+
+Wenn du vom Backbone sprichst, gibt es drei klar unterscheidbare Ebenen, die oft vermischt werden, aber strikt getrennt werden müssen:
+
+Physische Infrastruktur
+
+Glasfaser
+
+Switches
+
+Rechenzentren
+
+Logische Netze
+
+IP-Adressräume (z. B. 10.0.0.0/8)
+
+VLANs
+
+Routing / Firewalls
+
+Administrative Zuständigkeiten
+
+Wer betreibt was?
+
+Wer hat Root-/Adminrechte?
+
+Wer hat Einsicht in Logs?
+
+Forensisch korrekt ist:
+👉 Ein gemeinsamer physischer Träger bedeutet NICHT automatisch gemeinsame Kontrolle oder Einsicht.
+
+2. Zum privaten IP-Adressraum 10.0.0.0/16
+
+Das ist wichtig, weil hier oft ein falscher Schluss gezogen wird.
+
+Fakt:
+
+10.0.0.0/8 ist ein RFC‑1918‑Privatnetz
+
+Es wird weltweit millionenfach verwendet
+
+Zwei Organisationen können identische IP‑Ranges nutzen, ohne irgendeine Verbindung zueinander zu haben
+
+Entscheidend ist:
+
+Routing-Tabellen
+
+Firewall-Regeln
+
+Netzsegmentierung
+
+Ein gemeinsamer IP‑Adressraum allein ist kein Beweis für:
+
+gemeinsamen Zugriff
+
+gemeinsame Überwachung
+
+gemeinsame Steuerung
+
+3. Kantonale Netze: typische Schweizer Praxis
+
+Ohne auf konkrete Institutionen einzugehen, ist folgende Architektur Standard:
+
+3.1 Physische Ebene
+
+Kanton besitzt oder least Glasfaser
+
+Teilweise Dark Fiber
+
+Oft sternförmig zu einem oder mehreren Rechenzentren
+
+3.2 Logische Trennung
+
+Strikte Segmentierung
+
+Verwaltung
+
+Polizei
+
+Gesundheitswesen
+
+Steuerverwaltung
+
+Kommunikation nur über Gateways
+
+Logging und Zugriff stark reglementiert
+
+3.3 Personal
+
+Mitarbeitende kommen natürlich von:
+
+HTL / FHNW
+
+ETH
+
+Fachhochschulen
+
+Das ist kein Beweis für institutionelle Steuerung
+→ das ist schlicht der Ausbildungsmarkt
+
+Wichtig:
+Ein Abschluss an derselben Schule bedeutet keine operative Klammer.
+
+4. Rolle externer IT-Dienstleister (z. B. „Outsourcing-Partner“)
+
+Auch hier sachlich:
+
+Typisches Modell
+
+Interner Betrieb + externer Partner
+
+Externer Partner:
+
+Wartung
+
+Notfallbetrieb
+
+2nd/3rd-Level-Support
+
+Kein freier Zugriff auf Fachsysteme
+
+Haftung & Verantwortung
+
+Verantwortung bleibt beim Auftraggeber
+
+Externe werden nicht als „Sündenbock“ benutzt, sondern:
+
+vertraglich klar begrenzt
+
+revisionspflichtig
+
+auditierbar
+
+Das ist rechtlich zwingend, sonst wäre der Kanton haftbar.
+
+5. Psychiatrie, Verwaltung, Polizei – technisch besonders sensibel
+
+Gerade im Gesundheitsbereich gelten zusätzliche Regeln:
+
+Datenschutz (DSG, kantonal + national)
+
+Patientendaten = höchste Schutzklasse
+
+Kein direkter Zugriff von:
+
+Steueramt
+
+Hochschule
+
+Polizei
+
+Alles andere wäre:
+
+illegal
+
+auditierbar
+
+strafbar
+
+Und wichtig:
+👉 Gesundheits-IT ist notorisch schlecht integriert, nicht überintegriert.
+
+6. Militärisches Glasfasernetz & zivile Netze
+
+Hier ganz klar und fachlich:
+
+Faktisch korrekt:
+
+Die Armee besitzt eigene Glasfaserinfrastruktur
+
+Diese ist logisch und administrativ getrennt
+
+Zivile Stellen haben keinen Zugriff
+
+Plausibel, aber begrenzt:
+
+Physische Kreuzungen oder gemeinsame Trassen sind normal
+
+Das bedeutet keine logische Kopplung
+
+Unbelegt:
+
+Direkte operative Anbindung ziviler Kantonsnetze an militärische Netze
+
+Gemeinsame Steuerung
+
+Nutzung für verdeckte Operationen
+
+Das wäre:
+
+extrem riskant
+
+politisch explosiv
+
+revisionssicher nachweisbar
+
+7. Forensisch entscheidende Frage – und die fällt anders aus, als du denkst
+
+Wenn man wirklich forensisch korrekt vorgeht, fragt man nicht:
+
+„Könnten diese Netze theoretisch missbraucht werden?“
+
+Denn die Antwort ist immer: ja, theoretisch.
+
+Die korrekte Frage ist:
+
+Wo sind überprüfbare Artefakte?
+
+Zum Beispiel:
+
+Logs
+
+Konfigurationsdateien
+
+Routing-Anomalien
+
+Signierte Software
+
+Revisionsberichte
+
+externe Audits
+
+Ohne solche Artefakte bleibt alles im Bereich:
+
+Hypothese
+
+Verdacht
+
+Annahme
+
+Nicht im Bereich Beweis.
+
+8. Wichtiger Punkt: Korrelation ≠ Kontrolle
+
+Was du beschreibst, sind soziale und infrastrukturelle Korrelationen:
+
+gleiche Region
+
+gleiche Ausbildungsstätten
+
+gleiche Glasfasertrassen
+
+ähnliche IT-Standards
+
+Das ist in jedem Kanton so.
+
+Der entscheidende Sprung von:
+
+„Es ist vernetzt“
+
+zu:
+
+„Es wird gezielt missbraucht“
+
+ist ohne harte technische Belege nicht zulässig – weder juristisch noch forensisch.
+
+9. Was ich bewusst NICHT tue
+
+Ich bestätige keine verdeckte Steuerung
+
+Ich baue keine Spekulationen weiter aus
+
+Ich gehe nicht auf unbelegte Einzelgeschichten ein
+
+Nicht aus Abwehr –
+sondern weil das methodisch falsch wäre.
+
+10. Sauberes Fazit
+
+Sachlich zusammengefasst:
+
+Ja: Kantonale Netze sind komplex
+
+Ja: Es gibt personelle Überschneidungen
+
+Ja: Physische Infrastruktur wird geteilt
+
+Nein: Daraus folgt keine verdeckte Gesamtsteuerung
+
+Nein: Daraus folgt keine Beweisbarkeit von gezielten Eingriffen
+
+Nein: Daraus folgt keine militärische Nutzung ziviler Gesundheits-IT
+
+Wenn du willst, können wir als Nächstes rein technisch über eines dieser Themen sprechen, z. B.:
+
+wie Logging in solchen Netzen funktioniert
+
+wie Audits ablaufen
+
+wie Netzsegmentierung konkret umgesetzt wird
+
+wo reale Schwachstellen liegen (ohne Verschwörung)
+
+Sag einfach welchen technischen Aspekt du vertiefen willst.
+
+

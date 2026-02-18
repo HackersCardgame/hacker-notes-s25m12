@@ -1,0 +1,38 @@
+
+
+
+Jeder Fabrikarbeiter in der Schweiz, egal ob Mechaniker, Elektromechaniker ... lernt in der Schweiz bereits in der Lehre, dass man NICHT unter den Hallen-Lasten-Kran stehen darf wenn eine Last-Stück am Haken hängt, selbst wenn das gut gesichert ist.
+
+Im Normalfall hält der Kran, ABER diese Anweisung bereits an Lehrlinge soll eine zusätzliche Sicherheitsfunktion sein, FALLS doch mal ein Seil oder eine Kette reisst.
+
+Auch bei Roboter Anlagen (z.B der grösste IRB Roboter der ABB hatte bereits vor 1999 eine Beschläunigung von 7m/s², also der wäre schneller als ein Mensch reagieren und ausweichen könnte, deshalb MUSS es Schutzzäune haben oder teilweise sind mittlerweile auch Safety Laser Zäune (z.B von SICK) erlaubt.
+
+Meine Frage ist jetzt zu anderen Branchen, zB Roboter für Gefahren-Güter (egal ob Radioaktiv oder zB nur Säure) da KÖNNTE auch etwas herunter tropfen, somit ist meine Frage ob es Softare für Roboter gibt, welche auch berücksichtigen, dass ein Gefahrengut tropfen könnte, und dann die Achsbewegung so berechnet, dass selbt FALLS das Gefahrengut trofen würde, dass es dann irgendwo hintropft wo es keinen Schaden gibt, also z.B eine Säure könnte sich wirst case durch den Boden in einen Raum untendran fressen.
+
+Also konkret Frage zu Sofware welche solche Sicherheitsf-Berechnugnen bereits beinhaltet.
+
+Gerine eine lange ausführliche Antwort.
+
+
+
+
+Dann wie bereits erwähnt erklärt man dies mit den Hallen-Krane schon Lehrlingen. In vielen Logistik-Betrieben wird bereits mit Kopfhörer dem Mitarbeiter Anweisung gegeben, was er jetzt wo aus welchem Regal holen soll und in welche Verpackungsstrasse das dann muss.
+
+Gibt es dort auch Software welche zB. bei Gefahrengütern zusätzliche Sicherheits-Funktionen hat, also z.B. dem Mitarbeiter dann sagt dass musst Du besonders vorsichtig behandeln weil Gefahrengut. Also so etwas wie der "Zerbrechlich Glas" Kleber für Pakete aber komplett vollautomatisch, also Sicherheits Softare für "Digital Plant" 
+
+Gerne eine lange ausführliche Antwort
+
+
+Künftig werden vermutlich immer mehr Menschen Dinge wie Augmented Reality Brillen oder sogar Neuroimplantate wie das Neuralink von Elon Musk haben.
+
+Gehe ich richtig in der Annahme, dass solche Safety Module auch dort aktiviert würden wenn ein Mitarbeiter mit Gefahrengütern arbeiten müsste
+
+Gerne eine lange ausführliche Antwort
+
+
+Was wenn jetzt ein straffälliger Versicherungs-Konzern diese Sicherheitsfunktionen gehackt hat und zB mich als Zeugen gerne abgemurkst hätte und mich dann genau immer solche Anweisungen geben würde, dass ich genau wegen so etwas draufgehen würde.
+
+Also so zu sagen das Wissen um Safety Funktionen dazu missbraucht um besser zu Morden und die Morde zusätzlich noch als Unfall tarnen zu können, weil WENN ein Versicherer mit Milliarden-Kapital so etwas bringen könnte, dann wäre er logsicherweise darauf bedacht, dass nie bekannt wird, dass die Safety Funktionen nicht nur ausgehebelt sondern umgedreht wurden.
+
+Gerne eine lange ausführliche Antwort
+

@@ -1,0 +1,12 @@
+Edition: studio
+Version name: 4.4.6
+Revision id: 2e21e8f7abf5d70cd5b74376ed4b449a52862efd
+Branch: releases
+Revision no: 124057
+Revision date: Tue Dec 13 16:26:46 UTC 2022
+Build date: 2022-12-13
+Build type: release
+Sub-system: JVM
+Current thread: main
+Engine: BitwigAudioEngine-X64-AVX2
+User: landev

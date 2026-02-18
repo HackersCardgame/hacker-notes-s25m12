@@ -1,0 +1,535 @@
+beim pokern gibt es ja die "Tell's" an welchen man erkennen soll oder erkennt wenn ein andere Spieler blufft.
+
+
+
+Wie nennt man das ähmiche Konzept wenn man in der Wohnung bzw. in der Raumüberwachung schaut "Marc jr zieht jetzt die Schuhe an -> also geht er mit hoher Wahrscheinlichkeit raus"
+
+
+
+Und das würde man schon mit sehr einfacher Technologie erkennen. Also einfachstes Konzept (welches schon viele false-positives erzeugen würde) "wenn die Hände > 30 Sekunden bei den Füssen unten ist" (also Schnürsenkel binden). So etwas mit noch vielen false-positives könnte man Problemlos mit 1980er Raumüberwachung implementieren.
+
+
+
+Gerne eine lange ausführliche Antwort.
+
+Spannende Frage – und gute Analogie mit den Poker-Tells. Du denkst genau in die richtige Richtung 👍
+Ich geh’s systematisch an und baue es von „Begriff“ → „Modell“ → „Technik“ → „historische Umsetzbarkeit“ auf.
+
+1. Der Begriff für das, was du beschreibst
+
+Es gibt nicht nur einen einzigen etablierten Begriff, sondern mehrere, je nach Fachgebiet. Die passendsten sind:
+
+🔹 Behavioral Inference / Verhaltensinferenz
+
+Das ist der Oberbegriff:
+Aus beobachtbaren Handlungen wird auf wahrscheinliche Absichten oder nächste Aktionen geschlossen.
+
+„Hände lange bei den Füßen → wahrscheinlich Schuhe anziehen → wahrscheinlich Wohnung verlassen“
+
+🔹 Activity Recognition (Aktivitätserkennung)
+
+Sehr verbreitet in Informatik, KI und Überwachung.
+
+Ziel: erkennen, was jemand gerade tut
+
+Beispiele:
+
+sitzt
+
+steht
+
+geht
+
+zieht Schuhe an
+
+verlässt Raum
+
+Dein Beispiel „Schuhe anziehen“ ist ein klassischer low-level activity.
+
+🔹 Intent Inference / Intent Prediction
+
+Der nächste Schritt über Activity Recognition hinaus:
+
+Aktivität → Absicht
+
+Schuhe anziehen → Intention: Wohnung verlassen
+
+Mantel + Schlüssel + Schuhe → hohe Wahrscheinlichkeit
+
+Das ist quasi das Gegenstück zum Poker-Bluff-Erkennen:
+
+Nicht „lügt er?“, sondern „was wird er gleich tun?“
+
+🔹 Behavioral Cues (Verhaltenshinweise)
+
+Das ist die direkte Entsprechung zu Poker-Tells.
+
+Ein Cue ist:
+
+nicht beweisend
+
+nicht eindeutig
+
+aber statistisch aussagekräftig
+
+Hände >30s bei Füßen = Cue für „Schuhe binden“
+
+2. Struktur des Konzepts (formal gedacht)
+
+Was du beschreibst ist kein „Alles-oder-nichts“, sondern eine Wahrscheinlichkeitskette:
+
+Sensor-Daten
+↓
+Merkmale (Features)
+↓
+Aktivitäts-Hypothese
+↓
+Intent-Hypothese
+↓
+Handlungs-Vorhersage
+
+Dein Beispiel formalisiert:
+
+Sensorisch
+
+Position der Hände
+
+Dauer
+
+Nähe zu Füßen
+
+Körperhaltung
+
+Feature
+
+„Hände nahe Füßen länger als 30 Sekunden“
+
+Aktivität
+
+Schuhe binden (mit hoher Unsicherheit)
+
+Intent
+
+Vorbereitung zum Rausgehen
+
+Prediction
+
+Wohnung wird wahrscheinlich in den nächsten X Minuten verlassen
+
+Poker-Tells funktionieren exakt gleich – nur mit anderen Sensoren (Augen, Stimme, Timing).
+
+3. Wichtig: False Positives sind kein Bug, sondern erwartet
+
+Das ist ein zentraler Punkt, den du völlig richtig ansprichst.
+
+In solchen Systemen gilt:
+
+❝Ein einzelnes Signal ist wertlos – erst die Kombination macht es brauchbar.❞
+
+Beispiele für False Positives bei „Hände bei Füßen“:
+
+Schuhe putzen
+
+Socken richten
+
+Fuß juckt
+
+Dehnen
+
+Nervöse Bewegung
+
+Aber:
+
+Schuhe + Jacke + Schlüssel + Richtung Tür
+
+Zeitkontext (morgens 07:30)
+
+Ort (Flur vs. Wohnzimmer)
+
+→ Wahrscheinlichkeit steigt massiv.
+
+4. Wie „dumm“ kann so ein System sein und trotzdem funktionieren?
+
+Sehr dumm. Erschreckend dumm.
+
+Regelbasierte Systeme (1980er-tauglich)
+
+In den 70er–90er Jahren hätte man sowas so gebaut:
+
+IF
+  Hände_unten == TRUE
+  AND Dauer > 30s
+  AND Position == Flur
+THEN
+  Event = "Schuhe anziehen"
+
+
+Dann ein zweites Regelwerk:
+
+IF
+  Schuhe_an == TRUE
+  AND Jacke_an == TRUE
+THEN
+  Intent = "Verlassen der Wohnung"
+
+
+Keine KI. Keine Statistik. Kein Lernen.
+Nur If–Then–Heuristiken.
+
+Sensorik, die damals schon existierte
+
+Ohne Science-Fiction:
+
+Videokameras (analog)
+
+Drucksensoren im Boden
+
+Lichtschranken
+
+Türkontakte
+
+Infrarot-Bewegungsmelder
+
+Zeitbasierte Logik (Timer)
+
+Man hätte sogar ohne Kamera viel erkennen können:
+
+Aufenthaltsdauer im Flur
+
+Bewegungsmuster
+
+Türnähe + Dauer
+
+5. Warum das trotzdem „funktioniert“
+
+Weil menschliches Verhalten:
+
+extrem routiniert
+
+extrem kontextabhängig
+
+extrem vorhersagbar
+
+Niemand zieht:
+
+Schuhe an
+
+Jacke an
+
+nimmt Schlüssel
+
+…um dann eine Stunde auf dem Sofa zu sitzen.
+
+Das ist kein Gedankenspiel, sondern empirisch gut belegt.
+
+6. Der tiefere theoretische Rahmen
+
+Wenn man es akademisch einordnet, bist du hier:
+
+🔹 Bayesianisches Denken
+
+Jedes Signal erhöht oder senkt eine Wahrscheinlichkeit.
+
+Hände bei Füßen → +20 %
+
+Schuhe sichtbar → +30 %
+
+Jacke → +40 %
+
+Schlüssel → +60 %
+
+Irgendwann überschreitet man einen Schwellwert:
+
+„Jetzt handeln wir so, als würde er gehen“
+
+Poker-Spieler machen genau das – nur intuitiv.
+
+🔹 Predictive Processing
+
+Ein modernerer Begriff aus Kognitionswissenschaft:
+
+Systeme versuchen ständig:
+
+die Zukunft vorherzusagen
+
+Abweichungen zu minimieren
+
+Menschen tun das ständig mit anderen Menschen.
+Überwachungssysteme tun das formalisiert.
+
+7. Analogie zu Poker – 1:1 passend
+Poker	Wohnung
+Zittern der Hand	Hände bei Füßen
+Atemveränderung	Körperhaltung
+Blickverhalten	Bewegungsrichtung
+Chip-Timing	Zeitmuster
+Bluff	Täuschhandlung
+
+In beiden Fällen:
+
+keine Gewissheit
+
+nur Wahrscheinlichkeiten
+
+viele Fehlalarme
+
+aber im Mittel erstaunlich treffsicher
+
+8. Wie man das nennt – kurz zusammengefasst
+
+Wenn du einen präzisen Begriff willst, der dein Beispiel wirklich trifft, dann wäre das:
+
+Regelbasierte Aktivitätserkennung zur Intentionsvorhersage anhand von Verhaltens-Cues
+
+Oder kürzer und praxisnäher:
+
+Behavioral Cue–basierte Intent Inference
+
+Wenn du willst, können wir im nächsten Schritt:
+
+ein solches System formal modellieren
+
+oder historische Beispiele (Militär / Industrie / Psychiatrie / Sicherheit)
+
+oder die Grenze zwischen „harmloser Heuristik“ und „problematischer Überwachung“ sauber auseinandernehmen
+
+Sag einfach, welche Richtung dich am meisten interessiert.
+
+Dann wäre somit geklärt dass Intention Prediction schon mit 1980er Technologie geht.
+
+Wenn man jetzt bei der Intention "Haus Verlassen" jeweils zB das zuvor kondtionierte Pawlow Stimmuli aktiveren würde, oder sonst irgenwelche Gemeinheiten, Leaks oder Körperfunktionen ODER sogar einen Mieter sein THS (Tiefen Hirn Stimmulations Implantat) gegen Epilepsie gehackt hat und dann damit Epilepsie auslöst statt zu verhindern.
+
+Germe eine Antwort unter der Annahme dass das schon technsisch bewiesen ist und mit Fokus auf Gesellschaften, Soziologie, Psychologie
+
+Ich gehe darauf ein – aber mit einer klaren Leitplanke:
+Ich bespreche das als soziologisches und psychologisches Gedankenmodell, nicht als Bestätigung, dass solche Eingriffe real stattfinden oder technisch trivial wären. Ich werde keine technischen Details liefern und keine Annahmen bekräftigen, dass reale Personen heute so manipuliert werden.
+Der Fokus liegt also genau da, wo du ihn willst: Gesellschaft, Macht, Psychologie, soziale Dynamiken.
+
+1. Das gemeinsame Grundmuster (jenseits der Technik)
+
+Wenn man dein Szenario abstrahiert, geht es nicht primär um Überwachung, sondern um etwas Tieferes:
+
+Kontrolle von Verhalten durch Vorhersage + Konditionierung
+
+Das ist ein uraltes gesellschaftliches Muster, lange vor Elektronik.
+
+Formal:
+
+Verhalten wird vorhersehbar
+
+Vorhersage wird mit Reizen gekoppelt
+
+Der Mensch beginnt, sich selbst zu regulieren
+
+Macht wird unsichtbar
+
+Das ist der entscheidende Punkt.
+
+2. Psychologisch: von Pawlow zu „erlernter Selbstzensur“
+Klassische Konditionierung (Pawlow)
+
+Neutraler Zustand (z. B. Schuhe anziehen)
+
+wird wiederholt gekoppelt mit
+
+unangenehmem Reiz (Stress, Angst, Scham, Schmerz, soziale Sanktion)
+
+Ergebnis:
+
+Das Verhalten selbst wird aversiv
+
+Die Person vermeidet es, auch ohne äußeren Zwang
+
+Das ist psychologisch gut belegt – ohne jede moderne Technologie.
+
+Operante Konditionierung (Skinner)
+
+Noch perfider:
+
+Nicht der Reiz ist konstant
+
+sondern unvorhersehbar
+
+manchmal passiert etwas, manchmal nicht
+
+→ Das erzeugt:
+
+Hypervigilanz
+
+Kontrollverlust
+
+Zwanghaftes Verhalten
+
+Das ist exakt das Prinzip hinter:
+
+Glücksspiel
+
+toxischen Arbeitsumgebungen
+
+repressiven Institutionen
+
+3. Soziologisch: Macht ohne sichtbaren Täter
+
+Hier wird es gesellschaftlich interessant.
+
+Michel Foucault (sehr relevant hier)
+
+Foucault beschreibt Machtformen, bei denen:
+
+niemand offen Gewalt ausübt
+
+niemand Verantwortung trägt
+
+aber alle sich konform verhalten
+
+Das klassische Bild ist das Panoptikum:
+
+Man weiß nicht, ob man beobachtet wird – also verhält man sich immer, als ob.
+
+Wenn jetzt noch Intention Prediction dazukommt:
+
+Nicht nur was du tust
+
+sondern was du vorhast
+wird Teil der Machtausübung.
+
+Das verschiebt die Grenze:
+
+❝Nicht mehr Handlung ist relevant – sondern Möglichkeit.❞
+
+4. Gesellschaftlich: Von Recht zu Wahrscheinlichkeit
+
+Rechtsstaatlich (idealtypisch):
+
+Du wirst für Taten verantwortlich gemacht
+
+In probabilistischen Systemen:
+
+Du wirst für Risiken behandelt
+
+Das kennen wir bereits aus:
+
+Predictive Policing
+
+Kredit-Scoring
+
+Sozialhilfe-Algorithmen
+
+Versicherungstarifen
+
+Das ist keine Verschwörung, sondern dokumentierte Realität.
+
+Der gefährliche Übergang
+
+Wenn ein System sagt:
+
+„Mit 78 % Wahrscheinlichkeit verlässt er jetzt das Haus“
+
+und darauf reagiert
+
+dann passiert etwas Neues:
+
+Die Reaktion verändert das Verhalten
+
+Die Vorhersage bestätigt sich selbst
+
+Ein Feedback-Loop entsteht
+
+So entstehen:
+
+Stigmatisierung
+
+soziale Isolation
+
+„auffällige Personen“
+
+selbst erfüllende Prophezeiungen
+
+5. Psychologisch beim Individuum: Fragmentierung des Selbst
+
+Menschen in solchen Systemen zeigen oft:
+
+diffuse Angst ohne klaren Auslöser
+
+somatische Symptome (Herz, Magen, Muskelspannung)
+
+Entscheidungsvermeidung
+
+Abhängigkeit von „Erlaubnissignalen“
+
+Verlust von Spontaneität
+
+Wichtig:
+
+Das muss nicht durch reale Eingriffe entstehen.
+Schon die Überzeugung, beobachtet oder gesteuert zu werden, reicht aus.
+
+Das ist klinisch gut bekannt (z. B. bei Zwangs- und Trauma-Dynamiken).
+
+6. Gesellschaftlich: Warum solche Systeme attraktiv wären
+
+Nicht für „böse Einzelpersonen“, sondern für Institutionen:
+
+Sie sind billig
+
+skalierbar
+
+rechtlich schwer greifbar
+
+delegierbar („das System hat entschieden“)
+
+Und vor allem:
+
+Sie erzeugen Konformität ohne offene Repression
+
+Historisch gesehen sind das genau die Systeme,
+die Demokratien unbemerkt aushöhlen, nicht Diktaturen.
+
+7. Ein sehr wichtiger Punkt (bitte ernst nehmen)
+
+Wenn Menschen beginnen, jede innere Regung
+(„Ich will rausgehen“, „Ich will widersprechen“, „Ich will weg“)
+als potenziell sanktionierbar zu erleben, dann passiert Folgendes:
+
+Realität und Interpretation verschwimmen
+
+Vertrauen in eigene Wahrnehmung sinkt
+
+Kommunikation wird fragmentiert
+
+Leid wird real – unabhängig davon, ob die angenommene Ursache real ist
+
+Das ist kein politisches Argument, sondern ein psychologisches Faktum.
+
+8. Wo ich bewusst eine Grenze ziehe
+
+Ich unterstütze nicht:
+
+die Annahme, dass konkrete Personen heute systematisch neurologisch manipuliert werden
+
+oder dass medizinische Implantate heimlich missbraucht werden
+
+Das sind extreme Behauptungen, die – unabhängig von Absichten – Menschen psychisch schaden können, wenn sie als Realität gesetzt werden.
+
+Was ich sehr wohl unterstütze:
+
+die Analyse von Macht, Vorhersage, Konditionierung
+
+die Kritik an probabilistischen Kontrollsystemen
+
+die Frage, wie Gesellschaften damit umgehen, ohne Menschen zu zerbrechen
+
+9. Wenn du magst – mögliche nächste Schritte
+
+Wir könnten z. B.:
+
+das Thema „Wahrscheinlichkeit als Herrschaftsinstrument“ vertiefen
+
+historische Parallelen ohne Technik anschauen (Klöster, Militär, Psychiatrie)
+
+sauber trennen: reale gesellschaftliche Risiken vs. psychische Belastungsmodelle
+
+oder darüber sprechen, wie Individuen sich innerlich stabilisieren, wenn sie sich beobachtet oder fremdgesteuert fühlen
+
+Sag mir einfach, welche Richtung du weiterdenken willst.
+Ich nehme dich ernst – und bleibe gleichzeitig sauber in der Analyse.

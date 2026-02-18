@@ -1,0 +1,97 @@
+2022-12-23 23:39:51.162 (I) ==================== SSR started ====================
+2022-12-23 23:39:51.162 (I) SimpleScreenRecorder 0.4.4
+Compiled with GCC 11.3.0
+Qt: header 5.15.4, lib 5.15.6
+libavformat: header 59.16.100, lib 59.27.100
+libavcodec: header 59.18.100, lib 59.37.100
+libavutil: header 57.17.100, lib 57.28.100
+libswscale: header 6.4.100, lib 6.7.100
+2022-12-23 23:39:51.162 (I) [CPUFeatures::Detect] CPU features: mmx sse sse2 sse3 ssse3 sse4_1 sse4_2 avx avx2 bmi1 bmi2
+2022-12-23 23:39:51.213 (I) [ALSAInput::GetSourceList] Generating source list ...
+2022-12-23 23:39:51.214 (I) [ALSAInput::GetSourceList] Found plugin: [lavrate] Rate Converter Plugin Using Libav/FFmpeg Library
+2022-12-23 23:39:51.214 (I) [ALSAInput::GetSourceList] Found plugin: [a52] Plugin to convert multichannel stream to A52 (AC3) bitstream
+2022-12-23 23:39:51.214 (I) [ALSAInput::GetSourceList] Found card: [hw:0] HDA Intel PCH
+2022-12-23 23:39:51.214 (I) [ALSAInput::GetSourceList] Found device: [hw:0,0] HDA Intel PCH: ALC1220 Analog
+2022-12-23 23:39:51.214 (I) [ALSAInput::GetSourceList] Found device: [hw:0,2] HDA Intel PCH: ALC1220 Alt Analog
+2022-12-23 23:39:51.214 (I) [ALSAInput::GetSourceList] Found card: [hw:1] HDA NVidia
+2022-12-23 23:39:51.214 (I) [ALSAInput::GetSourceList] Found card: [hw:2] RODE NT-USB
+2022-12-23 23:39:51.214 (I) [ALSAInput::GetSourceList] Found device: [hw:2,0] RODE NT-USB: USB Audio
+2022-12-23 23:39:51.214 (I) [ALSAInput::GetSourceList] Found card: [hw:3] G435 Wireless Gaming Headset
+2022-12-23 23:39:51.214 (I) [ALSAInput::GetSourceList] Found device: [hw:3,0] G435 Wireless Gaming Headset: USB Audio
+2022-12-23 23:39:51.214 (I) [ALSAInput::GetSourceList] Found card: [hw:4] Arturia BeatStep
+2022-12-23 23:39:51.214 (I) [ALSAInput::GetSourceList] Found card: [hw:5] APC MINI
+2022-12-23 23:39:51.215 (I) [ALSAInput::GetSourceList] Found card: [hw:6] APC MINI
+2022-12-23 23:39:51.230 (I) [PulseAudioInput::GetSourceList] Generating source list ...
+2022-12-23 23:39:51.233 (I) [SourceNamesCallback] Found source: [alsa_output.usb-RODE_Microphones_RODE_NT-USB-00.iec958-stereo.monitor] Monitor of RODE NT-USB Digital Stereo (IEC958)
+2022-12-23 23:39:51.233 (I) [SourceNamesCallback] Found source: [alsa_input.usb-RODE_Microphones_RODE_NT-USB-00.analog-stereo] RODE NT-USB Analog Stereo
+2022-12-23 23:39:51.233 (I) [SourceNamesCallback] Found source: [alsa_output.usb-Logitech_G_series_G435_Wireless_Gaming_Headset_202105190004-00.analog-stereo.monitor] Monitor of G435 Wireless Gaming Headset Analog Stereo
+2022-12-23 23:39:51.233 (I) [SourceNamesCallback] Found source: [alsa_input.usb-Logitech_G_series_G435_Wireless_Gaming_Headset_202105190004-00.mono-fallback] G435 Wireless Gaming Headset Mono
+2022-12-23 23:39:51.233 (I) [SourceNamesCallback] Found source: [alsa_output.pci-0000_00_1f.3.hdmi-stereo-extra1.monitor] Monitor of Built-in Audio Digital Stereo (HDMI 2)
+2022-12-23 23:39:51.233 (I) [SourceNamesCallback] Found source: [alsa_input.pci-0000_00_1f.3.analog-stereo.99] Built-in Audio Analog Stereo
+2022-12-23 23:39:51.334 (E) [PageRecord::OnStdin] Standard input read error (ioctl).
+2022-12-23 23:40:22.185 (I) [PageRecord::StartPage] Starting page ...
+2022-12-23 23:40:22.185 (I) [PageRecord::StartPage] Started page.
+2022-12-23 23:40:31.239 (I) [PageRecord::StartOutput] Starting output ...
+2022-12-23 23:40:31.239 (I) [PageRecord::StartOutput] Output file: /home/marc/tree-2022-12-23_23.40.31.mp4
+2022-12-23 23:40:31.239 (I) [Muxer::Init] Using format mp4 (MP4 (MPEG-4 Part 14)).
+2022-12-23 23:40:31.239 (I) [Muxer::AddStream] Using codec libx264 (libx264 H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10).
+2022-12-23 23:40:31.240 (I) [VideoEncoder::PrepareStream] Using pixel format nv12.
+2022-12-23 23:40:31.246 (S) [libx264 @ 0x5622137a80c0] using SAR=1/1
+2022-12-23 23:40:31.247 (S) [libx264 @ 0x5622137a80c0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+2022-12-23 23:40:31.249 (S) [libx264 @ 0x5622137a80c0] profile High, level 3.0, 4:2:0, 8-bit
+2022-12-23 23:40:31.249 (S) [libx264 @ 0x5622137a80c0] 264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=1 ref=1 deblock=1:0:0 analyse=0x3:0x3 me=dia subme=1 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=12 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=1 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc=crf mbtree=0 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 pb_ratio=1.30 aq=1:1.00
+2022-12-23 23:40:31.249 (I) [BaseEncoder::EncoderThread] Encoder thread started.
+2022-12-23 23:40:31.249 (I) [Muxer::AddStream] Using codec libvorbis (libvorbis).
+2022-12-23 23:40:31.249 (I) [AudioEncoder::PrepareStream] Using sample format f32p.
+2022-12-23 23:40:31.254 (I) [BaseEncoder::EncoderThread] Encoder thread started.
+2022-12-23 23:40:31.254 (I) [PageRecord::StartOutput] Started output.
+2022-12-23 23:40:31.254 (I) [Synchronizer::SynchronizerThread] Synchronizer thread started.
+2022-12-23 23:40:31.255 (I) [Muxer::MuxerThread] Muxer thread started.
+2022-12-23 23:40:31.255 (I) [PageRecord::StartInput] Starting input ...
+2022-12-23 23:40:31.255 (I) [X11Input::Init] Using X11 shared memory.
+2022-12-23 23:40:31.255 (I) [X11Input::Init] Detecting screen configuration ...
+2022-12-23 23:40:31.255 (I) [X11Input::Init] Screen 0: x1 = 1920, y1 = 0, x2 = 3840, y2 = 1080
+2022-12-23 23:40:31.255 (I) [X11Input::Init] Screen 1: x1 = 0, y1 = 0, x2 = 1920, y2 = 1080
+2022-12-23 23:40:31.256 (I) [X11Input::InputThread] Input thread started.
+2022-12-23 23:40:31.266 (I) [PulseAudioInput::InputThread] Stream is a monitor.
+2022-12-23 23:40:31.266 (I) [PageRecord::StartInput] Started input.
+2022-12-23 23:40:31.267 (I) [PulseAudioInput::InputThread] Input thread started.
+2022-12-23 23:40:31.375 (I) [FastResampler::Resample] Resample ratio is 1.0000 (was 0.0000).
+2022-12-23 23:40:37.004 (I) [PageRecord::StopOutput] Stopping output ...
+2022-12-23 23:40:37.005 (I) [PageRecord::StopOutput] Stopped output.
+2022-12-23 23:40:37.005 (I) [PageRecord::StopInput] Stopping input ...
+2022-12-23 23:40:37.005 (I) [X11Input::~X11Input] Stopping input thread ...
+2022-12-23 23:40:37.011 (I) [X11Input::InputThread] Input thread stopped.
+2022-12-23 23:40:37.011 (I) [PulseAudioInput::~PulseAudioInput] Stopping input thread ...
+2022-12-23 23:40:37.011 (I) [PulseAudioInput::InputThread] Input thread stopped.
+2022-12-23 23:40:37.012 (I) [PageRecord::StopInput] Stopped input.
+2022-12-23 23:40:37.012 (I) [PageRecord::StopPage] Stopping page ...
+2022-12-23 23:40:37.012 (I) [Synchronizer::~Synchronizer] Stopping synchronizer thread ...
+2022-12-23 23:40:37.028 (I) [Synchronizer::SynchronizerThread] Synchronizer thread stopped.
+2022-12-23 23:40:37.028 (I) [Muxer::Finish] Finishing encoders ...
+2022-12-23 23:40:37.039 (I) [BaseEncoder::EncoderThread] Flushing encoder ...
+2022-12-23 23:40:37.041 (I) [BaseEncoder::EncoderThread] Encoder thread stopped.
+2022-12-23 23:40:37.046 (I) [BaseEncoder::EncoderThread] Flushing encoder ...
+2022-12-23 23:40:37.047 (I) [BaseEncoder::EncoderThread] Encoder thread stopped.
+2022-12-23 23:40:37.065 (I) [Muxer::MuxerThread] Muxer thread stopped.
+2022-12-23 23:40:37.069 (I) [Muxer::~Muxer] Stopping encoders ...
+2022-12-23 23:40:37.069 (I) [Muxer::~Muxer] Waiting for muxer thread to stop ...
+2022-12-23 23:40:37.069 (I) [BaseEncoder::~BaseEncoder] Stopping encoder thread ...
+2022-12-23 23:40:37.069 (S) [libx264 @ 0x5622137a80c0] frame I:1     Avg QP: 8.93  size: 11815
+2022-12-23 23:40:37.069 (S) [libx264 @ 0x5622137a80c0] frame P:73    Avg QP:14.36  size:   648
+2022-12-23 23:40:37.069 (S) [libx264 @ 0x5622137a80c0] frame B:95    Avg QP: 9.90  size:   191
+2022-12-23 23:40:37.069 (S) [libx264 @ 0x5622137a80c0] consecutive B-frames: 17.8% 18.9%  8.9% 54.4%
+2022-12-23 23:40:37.069 (S) [libx264 @ 0x5622137a80c0] mb I  I16..4: 79.7%  1.8% 18.5%
+2022-12-23 23:40:37.069 (S) [libx264 @ 0x5622137a80c0] mb P  I16..4:  0.1%  0.0%  0.2%  P16..4:  2.1%  0.0%  0.0%  0.0%  0.0%    skip:97.6%
+2022-12-23 23:40:37.069 (S) [libx264 @ 0x5622137a80c0] mb B  I16..4:  0.0%  0.0%  0.0%  B16..8:  1.2%  0.0%  0.0%  direct: 0.2%  skip:98.6%  L0:51.8% L1:47.7% BI: 0.5%
+2022-12-23 23:40:37.069 (S) [libx264 @ 0x5622137a80c0] 8x8 transform intra:2.8% inter:17.0%
+2022-12-23 23:40:37.069 (S) [libx264 @ 0x5622137a80c0] coded y,uvDC,uvAC intra: 25.6% 32.4% 32.1% inter: 0.5% 1.0% 0.8%
+2022-12-23 23:40:37.069 (S) [libx264 @ 0x5622137a80c0] i16 v,h,dc,p: 83% 13%  4%  0%
+2022-12-23 23:40:37.069 (S) [libx264 @ 0x5622137a80c0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 25% 18% 25% 12%  1%  2%  3%  5%  9%
+2022-12-23 23:40:37.069 (S) [libx264 @ 0x5622137a80c0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 30% 23% 12%  4%  6%  6%  5%  7%  5%
+2022-12-23 23:40:37.069 (S) [libx264 @ 0x5622137a80c0] i8c dc,h,v,p: 67% 21%  9%  3%
+2022-12-23 23:40:37.069 (S) [libx264 @ 0x5622137a80c0] Weighted P-Frames: Y:0.0% UV:0.0%
+2022-12-23 23:40:37.069 (S) [libx264 @ 0x5622137a80c0] kb/s:109.74
+2022-12-23 23:40:37.071 (I) [BaseEncoder::~BaseEncoder] Stopping encoder thread ...
+2022-12-23 23:40:37.072 (I) [PageRecord::StopPage] Stopped page.
+2022-12-23 23:44:18.669 (I) ==================== SSR stopped ====================
