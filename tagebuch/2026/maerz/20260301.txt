@@ -1,0 +1,18 @@
+14:46:
+
+also da wurde scheinbar das diktiergerät selber irgendwie sabotiert, oder remote die sd karte ...
+
+also die wollen vermutlich nicht dass ich noch bevor urs blum und seine auftragskiller mich abschlachten noch indizien oder so von mir aufgezeichnet werden
+
+14:57:
+"disassembly": ist scheinbar die SD Karte, obwohl ich diese immer nur schreibgeschützt an den pc angescholssen habe
+
+Hypothese:
+alle SD Karten wären remote zugreifbar mit etwas wie EyeFI
+
+bzw. allenfalls einfach zu viele files in einem FAT verzeichnis, grad keine Zeit um das genauer zu analysieren
+
+
+
+
+
