@@ -1,0 +1,78 @@
+06:35:
+
+Meiner SUBJEKTIVEN Meinung nach mach eine Rasterfahndung nach Ärzte-Paaren wie Hansjürg Pfistererer / Myrtha Pfisterer Sinn
+
+                                
+marc@trix:~/hacker-notes-s25m12/voice/202603$ figlet INTERPOL
+ ___ _   _ _____ _____ ____  ____   ___  _     
+|_ _| \ | |_   _| ____|  _ \|  _ \ / _ \| |    
+ | ||  \| | | | |  _| | |_) | |_) | | | | |    
+ | || |\  | | | | |___|  _ <|  __/| |_| | |___ 
+|___|_| \_| |_| |_____|_| \_\_|    \___/|_____|
+                                               
+marc@trix:~/hacker-notes-s25m12/voice/202603$ 
+
+
+
+marc@trix:~/hacker-notes-s25m12/voice/202603$ figlet MEDICs
+ __  __ _____ ____ ___ ____     
+|  \/  | ____|  _ \_ _/ ___|___ 
+| |\/| |  _| | | | | | |   / __|
+| |  | | |___| |_| | | |___\__ \
+|_|  |_|_____|____/___\____|___/
+                                
+marc@trix:~/hacker-notes-s25m12/voice/2026
+
+HERLEITUNG / BRIEF:
+
+spätestens am dem Zeitpunkt wo dann Neuro-Implantate die Fähigkeiten eines Chriurgen unterstützen würde ...
+
+
+... und ein Psychiater würde dem Chirurgen eine Schizophrenie Diagnostizieren oder auch nur nachsagen ...
+
+... hätte das zur Folge dass der (massiv jüngere) Chriure sich schämen würde und nicht rapportieren würde ...
+
+... wenn sein Neuro-Implantat während einer Chirurgischen Operation gehackt wurde ...
+
+
+marc@trix:~/hacker-notes-s25m12/voice/202603$ figlet MEDICs
+ __  __ _____ ____ ___ ____     
+|  \/  | ____|  _ \_ _/ ___|___ 
+| |\/| |  _| | | | | | |   / __|
+| |  | | |___| |_| | | |___\__ \
+|_|  |_|_____|____/___\____|___/
+                                
+marc@trix:~/hacker-notes-s25m12/voice/2026
+
+
+
+details auf voice
+
+voice:
+voice/202603/
+voice/202603/R20260321-050635.WAV.mp3
+voice/202603/R20260321-050656.WAV.mp3
+voice/202603/R20260321-050729.WAV.mp3
+voice/202603/R20260321-054348.WAV.mp3
+voice/202603/R20260321-054446.WAV.mp3
+voice/202603/R20260321-054509.WAV.mp3
+voice/202603/R20260321-054600.WAV.mp3
+voice/202603/R20260321-064448.WAV.mp3
+voice/202603/R20260321-064520.WAV.mp3
+voice/202603/R20260321-065546.WAV.mp3
+voice/202603/R20260321-065616.WAV.mp3
+voice/202603/R20260321-070407.WAV.mp3
+voice/202603/R20260321-070535.WAV.mp3
+voice/202603/R20260321-070708.WAV.mp3
+voice/202603/R20260321-070826.WAV.mp3
+voice/202603/R20260321-071732.WAV.mp3
+voice/202603/R20260321-071802.WAV.mp3
+voice/202603/R20260321-071824.WAV.mp3
+voice/202603/R20260321-072035.WAV.mp3
+voice/202603/R20260321-072458.WAV.mp3
+voice/202603/R20260321-072532.WAV.mp3
+voice/202603/R20260321-072606.WAV.mp3
+voice/202603/R20260321-072644.WAV.mp3
+voice/202603/R20260321-072716.WAV.mp3
+voice/202603/R20260321-072754.WAV.mp3
+
